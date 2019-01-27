@@ -9,12 +9,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "serve": "serve build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src",
     "lint_fix": "eslint src --fix",
     "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages",
-    "heroku-prebuild": "npm run build"
+    "heroku-prebuild": "npm run build && npm run serve"
   },
   "browserslist": [
     ">0.2%",
@@ -29,6 +30,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-watch": "^4.0.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "serve": "^10.1.1"
   }
 }
