@@ -1,6 +1,36 @@
+# React Conference Armenia 2019
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Contributing
+
+1. **[Join to slack](https://bit.ly/2TjRRXG)** channel and request access to github repo or just fork this repository. [https://bit.ly/2TjRRXG](https://bit.ly/2TjRRXG)
+1. **Clone the repo**
+1. Familiarize with the **design materials**: **[Website PSD](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT)** | **[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6)** | **[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)**
+1. Go to the issues and **find an unassigned issue** you want to work on (or open a new one)
+1. Tell in the issue comments that you want to work on that part
+1. Once confirmed and the issue is assigned to you, **create a new local branch** with name ```develop-{{featureName}}``` for example ```develop-footer```
+1. Start working on the feature, and **open a pull request** as soon as possible. 
+   **Pro-tip:** be active as possible and don't hesitate to ask questions
+1. Keep working and updating the pull request.
+1. Once the feature is confirmed , PR is merged by administrators and deployed to live website! **You're awesome!**
+
+**!important** if there would be delays in the delivering the feature, we couldn't reach to you or the implementation would be rough the issue might be assigned to other person and re-implemented from scratch. We need this to keep up with the website delivery deadlines. 
+
+## Materials
+
+The website materials are located here
+
+**[Website PSD](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT)**
+
+**[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6)**
+
+**[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)**
+
+--------
+
+
+## Development Scripts
 
 In the project directory, you can run:
 
@@ -27,42 +57,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
