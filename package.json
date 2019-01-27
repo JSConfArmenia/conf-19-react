@@ -10,12 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
