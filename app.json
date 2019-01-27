@@ -9,7 +9,8 @@
   ],
   "description": "React Conf Armenia 2019",
   "env": {
-    "SKIP_PREFLIGHT_CHECK": "true"
+    "SKIP_PREFLIGHT_CHECK": "true",
+    "NODE_ENV": "development"
   },
   "formation": {
   },
