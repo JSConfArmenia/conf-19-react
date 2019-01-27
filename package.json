@@ -13,7 +13,8 @@
     "test": "react-scripts test",
     "lint": "eslint src",
     "lint_fix": "eslint src --fix",
-    "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages"
+    "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages",
+    "heroku-prebuild": "npm run build"
   },
   "browserslist": [
     ">0.2%",
