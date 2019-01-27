@@ -1,0 +1,20 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static.git"
+    }
+  ],
+  "description": "React Conf Armenia 2019",
+  "env": {
+    "SKIP_PREFLIGHT_CHECK": "true"
+  },
+  "formation": {
+  },
+  "name": "reactconfam19",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
