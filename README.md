@@ -50,6 +50,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run lint`
 
 Finds problematic patterns or code that doesn't adhere to certain style guidelines by Eslint.
+
 Use `npm run lint_fix` script for automatically code fixes.
 
 ### `npm run build`
