@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. **[Join to slack](https://bit.ly/2TjRRXG)** channel and request access to github repo or just fork this repository. [https://bit.ly/2TjRRXG](https://bit.ly/2TjRRXG)
 1. **Clone the repo**
-1. Familiarize with the **design materials**: [Website](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT) | [Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6) | [Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)
+1. Familiarize with the **design materials**: **[Website PSD](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT)** | **[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6)** | **[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)**
 1. Go to the issues and **find an unassigned issue** you want to work on (or open a new one)
 1. Tell in the issue comments that you want to work on that part
 1. Once confirmed and the issue is assigned to you, **create a new local branch** with name ```develop-{{featureName}}``` for example ```develop-footer```
@@ -21,11 +21,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 The website materials are located here
 
-[Website](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT) 
+**[Website PSD](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT)**
 
-[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6) 
+**[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6)**
 
-[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)
+**[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)**
 
 --------
 
