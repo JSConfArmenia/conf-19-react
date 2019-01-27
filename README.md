@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Familiarize with the **design materials**: **[Website PSD](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT)** | **[Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6)** | **[Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)**
 1. Go to the issues and **find an unassigned issue** you want to work on (or open a new one)
 1. Tell in the issue comments that you want to work on that part
-1. Once confirmed and the issue is assigned to you, **create a new local branch** with name ```develop-{{featureName}}``` for example ```develop-footer```
+1. Once confirmed and the issue is assigned to you, **create a new local branch** with name ```dev-{{featureName}}``` for example ```dev-footer```
 1. Start working on the feature, and **open a pull request** as soon as possible. 
    **Pro-tip:** be active as possible and don't hesitate to ask questions
 1. Keep working and updating the pull request.
