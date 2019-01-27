@@ -3,9 +3,7 @@
 
   ],
   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-static.git"
-    }
+    "heroku/nodejs"
   ],
   "description": "React Conf Armenia 2019",
   "env": {
