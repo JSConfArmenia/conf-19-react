@@ -4,23 +4,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Contributing
 
-1. Join slack channel and request access to github repo or just fork this repository. [Join to Slack](https://bit.ly/2TjRRXG)
-1. Clone the repo
-1. Familiarize with design materials [Website](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT) [Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6) [Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)
-1. Go to the issues and find the unassigned issue you want to work on (or open a new one)
+1. **[Join to slack](https://bit.ly/2TjRRXG)** channel and request access to github repo or just fork this repository. [https://bit.ly/2TjRRXG](https://bit.ly/2TjRRXG)
+1. **Clone the repo**
+1. Familiarize with the **design materials**: [Website](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT) | [Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6) | [Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)
+1. Go to the issues and **find an unassigned issue** you want to work on (or open a new one)
 1. Tell in the issue comments that you want to work on that part
-1. Once confirmed and the issue is assigned to you create a new branch with name ```develop-{{featureName}}``` for example ```develop-footer```
-1. Start working on the feature, and open a pull request as soon as possible. Pro-tip: be active as possible and don't hesitate to ask questions
+1. Once confirmed and the issue is assigned to you, **create a new local branch** with name ```develop-{{featureName}}``` for example ```develop-footer```
+1. Start working on the feature, and **open a pull request** as soon as possible. 
+   **Pro-tip:** be active as possible and don't hesitate to ask questions
 1. Keep working and updating the pull request.
-1. Once the feature is confirmed , PR is merged by administrators and deployed to live website! You're awesome!
+1. Once the feature is confirmed , PR is merged by administrators and deployed to live website! **You're awesome!**
 
 **!important** if there would be delays in the delivering the feature, we couldn't reach to you or the implementation would be rough the issue might be assigned to other person and re-implemented from scratch. We need this to keep up with the website delivery deadlines. 
 
 ## Materials
 
 The website materials are located here
+
 [Website](https://drive.google.com/open?id=1uXK6XkCQsQssBhjYt53fJKleT0yIgrdT) 
+
 [Logo](https://drive.google.com/open?id=1wCHxhLR3AJRkjEFXPIelF1eOHTiV05x6) 
+
 [Colors](https://drive.google.com/open?id=1Q3q00Q_OEnxMbMmzdJmkWTnJmxDrZAxmjRCdMGomq6M)
 
 --------
