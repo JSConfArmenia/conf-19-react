@@ -1,3 +1,30 @@
 .About {
-  background: aliceblue;
+  position:relative;
+  width:60%;
+  margin:auto;
+  text-align:initial;
+  margin-bottom:10%;
+}
+
+.About .container-left {
+  display:inline-block;
+  width:45%;
+  color:#ffffff;
+  font-size:1.1em;
+
+}
+
+.About .container-right {
+  display:inline-block;
+  width:45%;
+}
+
+.About .purple {
+  color:#d91dbd;
+}
+
+.About .img-frame{
+  height:100%;
+  background-color:white;
+  position:relative;
 }
