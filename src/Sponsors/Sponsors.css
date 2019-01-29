@@ -1,0 +1,59 @@
+.Sponsors {
+  position:relative;
+  width:60%;
+  margin:auto;
+  text-align:initial;
+  margin-bottom:10%;
+}
+    
+.Sponsors .container-left {
+  display:inline-block;
+  width:45%;
+  color:#FFFFFF;
+  vertical-align:top;
+  font-size:1.1em;
+}
+
+.Sponsors h2 {
+  margin-top:0px;
+}
+  
+.Sponsors .container-right {
+  display:inline-block;
+  width:45%;
+  text-align:right;
+}
+  
+.Sponsors .purple {
+  color:#d91dbd;
+}
+  
+  
+.Sponsors #become-sponsor {
+  display:inline-block;
+  text-decoration:none;
+  font-weight:bold;
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size:1em;
+  background-image:url("/button-bckg-orng.png");
+  background-size:contain;
+  background-repeat:round no-repeat;
+  color:black;
+  width: 12em;
+  text-align:center;
+  margin-right:0px;
+  text-transform: uppercase;
+  border:none;
+  background-color:transparent;
+  cursor:pointer;
+}
+  
+.Sponsors #become-sponsor:hover {
+  background-image:url("/button-bckg-blue.png");
+  border-bottom-color:transparent;
+}
+  
+.Sponsors img {
+  width:80%;
+}
