@@ -6,6 +6,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url("/bckg-city.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-color:#020937;
+  
 }
 
 code {
@@ -16,3 +21,4 @@ code {
 .Container {
   font-size: 12px;
 }
+
