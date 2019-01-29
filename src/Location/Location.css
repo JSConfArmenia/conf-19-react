@@ -1,0 +1,9 @@
+.Location {
+  margin: auto;
+  color: #00ded3;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
