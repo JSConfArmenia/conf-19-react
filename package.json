@@ -18,6 +18,9 @@
     "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages",
     "postinstall": "npm run build"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -31,6 +34,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-watch": "^4.0.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "pre-commit": "^1.2.2"
   }
 }
