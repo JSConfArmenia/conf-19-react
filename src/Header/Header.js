@@ -14,8 +14,8 @@ const Header = () => (
       <a href="#Location">Location</a>
       <a href="#FAQ">FAQ</a>
       <a href="#Quiz">Quiz</a>
-      <Button link color="pink" />
     </nav>
+    <Button link>Request an Invite</Button>
   </header>
 );
 
