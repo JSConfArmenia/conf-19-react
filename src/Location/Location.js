@@ -8,7 +8,7 @@ export default () => (
     {/* REPLACE WITH TITLE COMPONENT */}
     <h1>Location</h1>
     {/* REPLACE WITH TITLE COMPONENT */}
-    <div style={{ width: '960px', height: '540px' }}>
+    <div className="map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyDrPSNUf_6iI95MrqwlcT7njNrt6rU0CAE' }}
         defaultZoom={16}

@@ -7,3 +7,10 @@
   flex-direction: column;
   align-items: center;
 }
+
+.map {
+  width: 80vw;
+  height: calc(80vw / 1.7);
+  max-width: 960px;
+  max-height: 540px;
+}
