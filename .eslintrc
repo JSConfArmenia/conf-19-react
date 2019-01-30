@@ -4,6 +4,17 @@
     "browser": true,
     "es6": true
   },
+  "parser": "babel-eslint",
+  "parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+  },
+  "plugins": [
+		"react"
+	],
   "rules": {
     "react/jsx-filename-extension": [
       1,
@@ -14,12 +25,24 @@
     "react/prop-types": 0,
     "no-underscore-dangle": 0,
     "import/imports-first": ["error", "absolute-first"],
-    "import/newline-after-import": "error"
+    "import/newline-after-import": "error",
+    "jsx-a11y/anchor-has-content": 0,
+    "jsx-a11y/heading-has-content": 0
   },
   "globals": {
     "window": true,
     "document": true,
     "localStorage": true,
     "navigator": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": [
+          "node_modules",
+          "src"
+        ]
+      }
+    }
   }
 }
