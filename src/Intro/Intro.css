@@ -1,0 +1,30 @@
+.Intro {
+  display: inline-block;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 40%;
+  position: relative;
+  text-align: initial;
+}
+
+.Intro span {
+  color: #00ded3;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  margin-bottom: 10px;
+}
+
+.Intro span:last-of-type {
+  left: unset;
+  right: 0;
+}
+
+.Intro h1 {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: bold;
+  padding-top: 0.6em;
+}
