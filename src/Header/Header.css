@@ -42,29 +42,3 @@
 .Header nav a:hover {
   border-bottom-color: white;
 }
-
-.Header #req-invite {
-  display: inline-block;
-  text-transform: uppercase;
-  vertical-align: top;
-  font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: none;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  font-size: 0.8em;
-  background-color: transparent;
-  cursor: pointer;
-  background-image: url("/button-bckg.png");
-  background-size: contain;
-  background-repeat: round no-repeat;
-  color:black;
-  width: 12em;
-  text-align: center;
-  margin-right: 0px;
-}
-.Header #req-invite:hover {
-  background-image: url("/button-bckg-blue.png");
-  border-bottom-color: transparent;
-}

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button } from '_components';
 import './Header.css';
 
 const Header = () => (
@@ -14,7 +14,7 @@ const Header = () => (
       <a href="#Location">Location</a>
       <a href="#FAQ">FAQ</a>
       <a href="#Quiz">Quiz</a>
-      <a href="#Invite" id="req-invite" className="Button">Request an invite</a>
+      <Button link color="pink" />
     </nav>
   </header>
 );
