@@ -8,7 +8,6 @@ export default () => (
     {/* REPLACE WITH TITLE COMPONENT */}
     <h1>Location</h1>
     {/* REPLACE WITH TITLE COMPONENT */}
-
     <div className="map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY }}

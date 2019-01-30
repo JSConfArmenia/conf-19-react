@@ -1,16 +1,36 @@
 .Location {
   margin: auto;
   color: #00ded3;
-  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .map {
+  margin: 50px 0;
   width: 80vw;
   height: calc(80vw / 1.7);
   max-width: 960px;
   max-height: 540px;
+}
+
+.Location::after {
+  content: url('/location-splash.png');
+  transform-origin: top;
+  position: absolute;
+  top: -10%;
+  left: 0;
+  right: 0;
+  margin: 0;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 500px) {
+  .map {
+    margin: 30px 0;
+    width: 90vw;
+    height: calc(90vw / 1.4);
+  }
 }
