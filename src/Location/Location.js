@@ -8,9 +8,10 @@ export default () => (
     {/* REPLACE WITH TITLE COMPONENT */}
     <h1>Location</h1>
     {/* REPLACE WITH TITLE COMPONENT */}
+
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyDrPSNUf_6iI95MrqwlcT7njNrt6rU0CAE' }}
+        bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY }}
         defaultZoom={16}
         defaultCenter={{
           lat: 40.2105717,
