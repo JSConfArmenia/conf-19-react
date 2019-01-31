@@ -8,7 +8,9 @@ const About = () => (
   <div className="About">
     <div className="info-container">
       <Title>
-        What is <TitleAccent color="primary1">React Conf</TitleAccent>
+        What is
+        {' '}
+        <TitleAccent color="primary1">React Conf</TitleAccent>
       </Title>
       <p>
         React Conf is an all-React conference,
