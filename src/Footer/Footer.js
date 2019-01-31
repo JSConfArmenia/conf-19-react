@@ -9,7 +9,7 @@ const Footer = () => (
     <h2>React Conf Armenia</h2>
     <ul className="icons">
       {Icons.map(icon => (
-        <li className="icon">
+        <li key={icon.key} className="icon">
           <a href={icon.url}>{icon.component}</a>
         </li>
       ))}

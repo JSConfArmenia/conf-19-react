@@ -8,22 +8,27 @@ import Youtube from './icons/Youtube';
 export default [
   {
     url: '/',
+    key: 'github',
     component: <Github />,
   },
   {
     url: '/',
+    key: 'facebook',
     component: <Facebook />,
   },
   {
     url: '/',
+    key: 'twitter',
     component: <Twitter />,
   },
   {
     url: '/',
+    key: 'instagram',
     component: <Instagram />,
   },
   {
     url: '/',
+    key: 'youtube',
     component: <Youtube />,
   },
 ];
