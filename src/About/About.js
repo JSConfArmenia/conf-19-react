@@ -1,11 +1,10 @@
 import React from 'react';
 
 import Title, { TitleAccent } from '../_components/Title';
-
 import './About.css';
 
 const About = () => (
-  <div className="About">
+  <div id="About" className="About">
     <div className="info-container">
       <Title>
         What is
@@ -22,9 +21,11 @@ const About = () => (
         just to have fun.
       </p>
     </div>
-    <img className="triangle" src="./about-section-triangle.png" alt="triangle" />
-    <img className="spark" src="./about-section-spark.png" alt="spark" />
-    <img className="main" src="./about-section-image.png" alt="about section" />
+    <div className="image-container">
+      <img className="triangle icon" src="./about-section-triangle.png" alt="triangle" />
+      <img className="spark icon" src="./about-section-spark.png" alt="spark" />
+      <img className="main" src="./about-section-image.png" alt="about section" />
+    </div>
   </div>
 );
 
