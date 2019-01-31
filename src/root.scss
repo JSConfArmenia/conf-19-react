@@ -1,32 +1,68 @@
 // TODO: Bring all css styles of App and index to here
+
 @font-face {
-	font-family: 'Rajdhani';
-	src: url("~_assets/Fonts/Rajdhani/Rajdhani-Light.otf") format("opentype");
-	font-weight: 200;
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.eot");
+  src: local("Rajdhani"), local("Rajdhani-Regular"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.svg#Rajdhani-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Rajdhani';
-	src: url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.otf") format("opentype");
-	font-weight: 300;
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Light.eot");
+  src: local("Rajdhani Light"), local("Rajdhani-Light"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.svg#Rajdhani-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Rajdhani';
-	src: url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.otf") format("opentype");
-	font-weight: 400;
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.eot");
+  src: local("Rajdhani Bold"), local("Rajdhani-Bold"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.svg#Rajdhani-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Rajdhani';
-	src: url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.otf") format("opentype");
-	font-weight: 600;
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.eot");
+  src: local("Rajdhani Medium"), local("Rajdhani-Medium"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.svg#Rajdhani-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Rajdhani';
-	src: url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.otf") format("opentype");
-	font-weight: 900;
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.eot");
+  src: local("Rajdhani SemiBold"), local("Rajdhani-SemiBold"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.svg#Rajdhani-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
 }
 
 * {
