@@ -10,7 +10,9 @@ const About = () => (
       <Title>
         What is
         {' '}
-        <TitleAccent color="primary1">React Conf</TitleAccent>
+        <TitleAccent color="primary1">
+          React Conf
+        </TitleAccent>
       </Title>
       <p>
         React Conf is an all-React conference,
