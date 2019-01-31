@@ -10,8 +10,9 @@ const Footer = () => (
     <ul className="icons">
       {Icons.map(icon => (
         <li key={icon.key} className="icon">
-          <a  rel="noopener noreferrer"
-    target="_blank" href={icon.url}>{icon.component}</a>
+          <a rel="noopener noreferrer" target="_blank" href={icon.url}>
+            {icon.component}
+          </a>
         </li>
       ))}
     </ul>
