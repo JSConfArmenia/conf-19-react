@@ -7,27 +7,27 @@ import Youtube from './icons/Youtube';
 
 export default [
   {
-    url: '/',
+    url: 'https://github.com/JSConfArmenia/',
     key: 'github',
     component: <Github />,
   },
   {
-    url: '/',
+    url: 'https://www.facebook.com/jsconf.am/',
     key: 'facebook',
     component: <Facebook />,
   },
   {
-    url: '/',
+    url: 'https://twitter.com/jsconf_am/',
     key: 'twitter',
     component: <Twitter />,
   },
   {
-    url: '/',
+    url: 'https://www.instagram.com/jsconf.am/',
     key: 'instagram',
     component: <Instagram />,
   },
   {
-    url: '/',
+    url: 'https://www.youtube.com/channel/UCkzEOKU959F6_T0OaQBH4VQ/featured',
     key: 'youtube',
     component: <Youtube />,
   },
