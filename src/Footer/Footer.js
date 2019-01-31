@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Footer.css';
 import Icons from './Icons';
+import Contributor from './Contributor';
 
 const Footer = () => (
   <div className="Footer">
@@ -26,41 +27,16 @@ const Footer = () => (
     <div className="copyright">
       <p>
         Design and branding by
-        <a
-          className="link"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://github.com/davidtiger"
-        >
-          @davidtiger
-        </a>
+        <Contributor name="davidtiger" />
         , coded in React.js by
-        <a
-          className="link"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://github.com/modularcoder"
-        >
-          @modularcoder
-        </a>
+        <Contributor name="modularcoder" />
         ,
-        <a
-          className="link"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://github.com/nairihar"
-        >
-          @nairihar
-        </a>
+        <Contributor name="nairihar" />
         and
-        <a
-          className="link"
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://github.com/JSConfArmenia/conf-19-react/graphs/contributors"
-        >
-          others
-        </a>
+        <Contributor
+          name="others"
+          url="https://github.com/JSConfArmenia/conf-19-react/graphs/contributors"
+        />
         .
       </p>
     </div>
