@@ -1,3 +1,39 @@
 .About {
-  background: aliceblue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10%;
+  text-align: initial;
+  color: white;
+}
+.About > .info-container {
+  display: inline-block;
+  max-width: 25%;
+}
+.About > .info-container > .title {
+  display: inline-block;
+}
+.About > .info-container > p {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 120%;
+  text-align: left;
+}
+.About > img.main {
+  display: inline-block;
+  width: 400px;
+  height: 270px;
+  -webkit-clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%, 25% 50%, 8% 18%);
+  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%, 30% 52%, 8% 18%);
+}
+.About > img.triangle, .About > img.spark {
+  position: absolute;
+  z-index: 1;
+}
+.About > img.triangle {
+  top: 15px; right: 445px;
+}
+.About > img.spark {
+  top: -140px; right: 150px;
 }
