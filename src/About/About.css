@@ -10,7 +10,7 @@
 /* info container */
 .About > .info-container {
   display: inline-block;
-  max-width: 25%;
+  min-width: 25%; max-width: 25%;
 }
 .About > .info-container > .title {
   display: inline-block;
@@ -43,4 +43,24 @@
 }
 .About > .image-container > img.spark {
   top: -25%; right: -10%;
+}
+
+@media (max-width: 768px) {
+  .About {
+    display: block;
+  }
+  .About > .info-container, .About > .image-container {
+    display: block;
+    min-width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .About > .image-container > img.triangle {
+    top: 28%; left: 1rem;
+    max-width: 120px;
+  }
+  .About > .image-container > img.spark {
+    top: -40px; right: -10px;
+    max-width: 120px;
+  }
 }
