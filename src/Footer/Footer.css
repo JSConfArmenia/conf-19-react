@@ -1,0 +1,105 @@
+.Footer {
+  background-image: url('/planet-react.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25px;
+  color: white;
+  height: 1250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.Footer .link {
+  color: #00ded3;
+}
+.Footer h2 {
+  width: 200px;
+  margin: auto;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  font-size: 36px;
+}
+.Footer .lang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.Footer .lang a {
+  margin: 0 5px;
+}
+.icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  margin: 0 20px;
+}
+.icon svg {
+  fill: white;
+  transition: 0.2s;
+  width: 40px;
+  height: 40px;
+}
+.icon:hover svg {
+  fill: #d91dbd;
+}
+.copyright {
+  background: #000318;
+}
+.copyright .link {
+  margin-left: 5px;
+}
+.copyright .link:nth-child(3) {
+  margin-right: 5px;
+}
+.copyright p {
+  margin: 10px 20px 30px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 560px) {
+  .Footer {
+    background-position-y: 100%;
+    background-size: 1200px;
+    height: 757px;
+  }
+  .Footer h2 {
+    font-size: 32px;
+  }
+  .Footer .lang {
+    font-size: 20px;
+  }
+  .icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .copyright p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .Footer {
+    background-position-y: 100%;
+    background-size: 1000px;
+    height: 630px;
+  }
+  .Footer h2 {
+    font-size: 30px;
+  }
+  .Footer .lang {
+    font-size: 18px;
+  }
+  .icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  .copyright p {
+    margin: 10px 25px 30px;
+  }
+}
