@@ -7,7 +7,7 @@ import { Title } from '../_components';
 
 const Footer = () => (
   <div className="Footer">
-    <Title class="title">React Conf Armenia</Title>
+    <Title>React Conf Armenia</Title>
     <ul className="icons">
       {Icons.map(icon => (
         <li key={icon.key} className="icon">
