@@ -3,10 +3,11 @@ import React from 'react';
 import './Footer.css';
 import Icons from './Icons';
 import Contributor from './Contributor';
+import { Title } from '../_components';
 
 const Footer = () => (
   <div className="Footer">
-    <h2>React Conf Armenia</h2>
+    <Title class="title">React Conf Armenia</Title>
     <ul className="icons">
       {Icons.map(icon => (
         <li key={icon.key} className="icon">

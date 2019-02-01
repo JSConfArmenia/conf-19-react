@@ -12,7 +12,7 @@
 .Footer .link {
   color: #00ded3;
 }
-.Footer h2 {
+.Footer .title {
   width: 200px;
   margin: auto;
   margin: 0 auto 50px auto;
@@ -24,18 +24,20 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  font-weight: 500;
   font-size: 24px;
+  font-family: Rajdhani;
 }
 .Footer .lang a {
   margin: 0 5px;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .icons {
   list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin-bottom: 35px;
 }
 .icon {
   margin: 0 20px;
@@ -51,6 +53,7 @@
 }
 .copyright {
   background: #000318;
+  font-family: AktivGrotesk;
 }
 .copyright .link {
   margin-left: 5px;
