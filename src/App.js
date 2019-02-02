@@ -4,6 +4,7 @@ import About from './About/About';
 import Location from './Location/Location';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
+import About from './About/About';
 import Footer from './Footer/Footer';
 
 import './root.scss';
