@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Footer.scss';
-import Icons from './Icons/index';
+import Icons from './Icons/Icons';
 import Contributor from './Contributor';
 
 const Footer = () => (
