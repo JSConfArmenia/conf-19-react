@@ -1,48 +1,47 @@
 import React from 'react';
 
-import './Footer.css';
-import Icons from './Icons';
+import './Footer.scss';
+import Icons from './Icons/index';
 import Contributor from './Contributor';
 
 const Footer = () => (
-  <div className="Footer">
-    <h2>React Conf Armenia</h2>
-    <ul className="icons">
+  <section className="Footer">
+    <h2 className="Title">React Conf Armenia</h2>
+    <ul className="Icons">
       {Icons.map(icon => (
-        <li key={icon.key} className="icon">
+        <li key={icon.key} className="Icon">
           <a rel="noopener noreferrer" target="_blank" href={icon.url}>
             {icon.component}
           </a>
         </li>
       ))}
     </ul>
-    <div className="lang">
+    <div className="PressRelease">
       <p>Press release</p>
-      <a className="link" href="/">
+      <a className="Link" href="/">
         EN
       </a>
       /
-      <a className="link" href="/">
+      <a className="Link" href="/">
         AM
       </a>
     </div>
-    <div className="copyright">
+    <div className="Copyright">
       <p>
         Design and branding by
-        <Contributor name="davidtiger" />
-        , coded in React.js by
-        <Contributor name="modularcoder" />
-        ,
-        <Contributor name="nairihar" />
-        and
         <Contributor
-          name="others"
+          name="davidtiger"
+          url="https://www.behance.net/Davidtiger"
+        />
+        , coded in React.js by our
+        <Contributor
+          name="awesome contributors"
           url="https://github.com/JSConfArmenia/conf-19-react/graphs/contributors"
         />
         .
       </p>
     </div>
-  </div>
+  </section>
 );
 
 export default Footer;
