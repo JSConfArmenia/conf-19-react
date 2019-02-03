@@ -10,7 +10,7 @@ export default () => (
       Core
       <TitleAccent color="primary2"> Team</TitleAccent>
     </Title>
-    <ul>
+    <ul className="List">
       {TeamList.map(member => (
         <Member key={member.name} position={member.position} name={member.name} />
       ))}
