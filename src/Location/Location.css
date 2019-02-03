@@ -1,0 +1,52 @@
+.Location {
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-size: 1.5em;
+}
+
+.map {
+  margin: 50px 0;
+  width: 80vw;
+  height: calc(80vw / 1.7);
+  max-width: 960px;
+  max-height: 540px;
+}
+
+.Location > img {
+  position: absolute;
+  user-select: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1350px;
+  z-index: -1;
+  transition: 0.1s;
+}
+
+@media only screen and (max-width: 1350px) {
+  .Location > img {
+    width: 110vw;
+    left: -50px;
+
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Location {
+    margin: 100px 0;
+  }
+  .map {
+    margin: 30px 0;
+    width: 90vw;
+    height: calc(90vw / 1.4);
+  }
+  .Location > img {
+    width: 500px;
+    left: -50px;
+}
+}
