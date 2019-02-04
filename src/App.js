@@ -2,6 +2,7 @@ import React from 'react';
 
 import About from './About/About';
 import Location from './Location/Location';
+import Team from './Team/Team';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Footer from './Footer/Footer';
@@ -14,6 +15,7 @@ const App = () => (
     <Header />
     <Intro />
     <About />
+    <Team />
     <Location />
     <Footer />
   </div>
