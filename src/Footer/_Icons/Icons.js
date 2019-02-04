@@ -1,9 +1,9 @@
 import React from 'react';
-import Facebook from './icons/Facebook';
-import Github from './icons/Github';
-import Twitter from './icons/Twitter';
-import Instagram from './icons/Instagram';
-import Youtube from './icons/Youtube';
+import Facebook from './Facebook';
+import Github from './Github';
+import Twitter from './Twitter';
+import Instagram from './Instagram';
+import Youtube from './Youtube';
 
 export default [
   {
