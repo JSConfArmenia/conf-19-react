@@ -3,10 +3,11 @@ import React from 'react';
 import './Footer.scss';
 import Icons from './_Icons/Icons';
 import Contributor from './Contributor';
+import { Title } from '../_components';
 
 const Footer = () => (
   <section className="Footer">
-    <h2 className="Title">React Conf Armenia</h2>
+    <Title className="Title">React Conf Armenia</Title>
     <ul className="Icons">
       {Icons.map(icon => (
         <li key={icon.key} className="Icon">
@@ -29,10 +30,7 @@ const Footer = () => (
     <div className="Copyright">
       <p>
         Design and branding by
-        <Contributor
-          name="davidtiger"
-          url="https://www.behance.net/Davidtiger"
-        />
+        <Contributor name="davidtiger" url="https://www.behance.net/Davidtiger" />
         , coded in React.js by our
         <Contributor
           name="awesome contributors"
