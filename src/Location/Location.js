@@ -6,10 +6,10 @@ import './Location.scss';
 
 export default () => (
   <section className="Location">
-    <Title className="Title">
+    <Title>
       <TitleAccent color="hero">Location</TitleAccent>
     </Title>
-    <div className="map">
+    <div className="Map">
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY }}
         defaultZoom={16}
