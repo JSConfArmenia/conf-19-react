@@ -2,11 +2,11 @@ import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import mapOptions from './mapOptions';
 import { TitleAccent, Title } from '../_components';
-import './Location.css';
+import './Location.scss';
 
 export default () => (
-  <div className="Location">
-    <Title>
+  <section className="Location">
+    <Title className="Title">
       <TitleAccent color="hero">Location</TitleAccent>
     </Title>
     <div className="map">
@@ -20,6 +20,6 @@ export default () => (
         options={mapOptions}
       />
     </div>
-    <img alt="splash" src="/location-splash.png" />
-  </div>
+    <img className="Splash" alt="Splash" src="/location-splash.png" />
+  </section>
 );
