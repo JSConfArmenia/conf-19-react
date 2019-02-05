@@ -5,7 +5,7 @@ import Member from './Member';
 import './Team.scss';
 
 export default () => (
-  <div className="Team">
+  <section className="Team">
     <Title>
       Core
       <TitleAccent color="primary2"> Team</TitleAccent>
@@ -15,5 +15,5 @@ export default () => (
         <Member key={member.name} position={member.position} name={member.name} />
       ))}
     </ul>
-  </div>
+  </section>
 );
