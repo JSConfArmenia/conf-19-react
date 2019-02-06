@@ -1,12 +1,16 @@
 import React from 'react';
 
-import './Intro.css';
+import './Intro.scss';
 
 const Intro = () => (
   <div className="Intro">
-    <span>Russian-Armenian University</span>
-    <span>May 25, 2019</span>
-    <h1>React Conf Armenia</h1>
+    <div className="Container">
+      <div className="Info">
+        <p>Russian-Armenian University</p>
+        <p>May 25, 2019</p>
+      </div>
+      <h1>React Conf Armenia</h1>
+    </div>
   </div>
 );
 

@@ -8,8 +8,7 @@ import Intro from './Intro/Intro';
 import Sponsors from './Sponsors/Sponsors';
 import Footer from './Footer/Footer';
 
-import './root.scss';
-import './App.css';
+import './App.scss';
 
 const App = () => (
   <div className="App">

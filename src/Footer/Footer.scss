@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  font-family: AktivGrotesk, sans-serif;
 
   .Title {
     font-size: 20px;
@@ -29,19 +30,20 @@
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-  }
-
-  .Icon {
-    margin: 0 15px;
-  }
-  .Icon svg {
-    fill: white;
-    transition: 0.2s;
-    width: 35px;
-    height: 35px;
-  }
-  .Icon:hover svg {
-    fill: #d91dbd;
+    .Icon {
+      margin: 0 15px;
+      svg {
+        fill: white;
+        transition: 0.2s;
+        width: 35px;
+        height: 35px;
+      }
+      &:hover {
+        svg {
+          fill: #d91dbd;
+        }
+      }
+    }
   }
 
   .PressRelease {
@@ -51,25 +53,27 @@
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 1.2em;
-  }
-
-  .PressRelease a {
-    margin: 0 5px;
-    font-size: 1.1em;
+    .Link {
+      text-decoration: underline;
+      margin: 0 5px;
+      font-size: 1.1em;
+    }
   }
 
   .Copyright {
     background: #000318;
-    font-size: .9em;
-  }
-  .Copyright .Link {
-    margin-left: 5px;
-  }
-  .Copyright .Link:nth-child(3) {
-    margin-right: 5px;
-  }
-  .Copyright p {
-    margin: 10px 20px 30px;
+    font-size: 0.9em;
+    text-align: center;
+
+    p {
+      margin: 10px 20px 30px;
+    }
+    .Link {
+      margin-left: 5px;
+      &:nth-child(3) {
+        margin-right: 5px;
+      }
+    }
   }
 
   @media only screen and (max-width: 560px) {
@@ -80,11 +84,6 @@
     .Title {
       font-size: 32px;
     }
-
-    .PressRelease {
-      // font-size: 20px;
-    }
-
     .Icon svg {
       width: 30px;
       height: 30px;
@@ -102,11 +101,6 @@
     .Title {
       font-size: 30px;
     }
-
-    .PressRelease {
-      // font-size: 18px;
-    }
-
     .Icon svg {
       width: 20px;
       height: 20px;

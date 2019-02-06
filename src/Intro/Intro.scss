@@ -1,0 +1,46 @@
+.Intro {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 19%;
+  background-image: url(/bckg-city.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .Info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+.Intro p {
+  color: #00ded3;
+  font-weight: bold;
+}
+
+.Intro h1 {
+  margin: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media (min-width:450px) {
+  .Intro p {
+    font-size:1.5em;
+  }
+  .Intro h1 {
+    font-size:3em;
+  }
+}
+
+@media (min-width:650px) {
+
+  .Intro p {
+    font-size: 1.5em;
+  }
+
+  .Intro h1 {
+     font-size: 4em;
+  }
+}
