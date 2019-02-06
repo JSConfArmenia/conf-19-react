@@ -1,3 +1,67 @@
 .About {
-  background: aliceblue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: initial;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* info container */
+.About > .info-container {
+  display: inline-block;
+  min-width: 25%; max-width: 25%;
+}
+.About > .info-container > .title {
+  display: inline-block;
+}
+.About > .info-container > p {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 120%;
+  text-align: left;
+}
+/* image container */
+.About > .image-container {
+  position: relative;
+  display: inline-block;
+  min-width: 35%; max-width: 35%;
+  margin-left: 1rem;
+}
+.About > .image-container > img.main {
+  min-width: 100%; max-width: 100%;
+  min-height: 100%;
+  -webkit-clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 28% 56%, 5% 26%);
+  clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%, 28% 55%, 8% 26%);
+}
+.About > .image-container > img.icon {
+  position: absolute;
+  z-index: 1;
+}
+.About > .image-container > img.triangle {
+  top: 34.5%; left: 10%;
+}
+.About > .image-container > img.spark {
+  top: -25%; right: -10%;
+}
+
+@media (max-width: 768px) {
+  .About {
+    display: block;
+  }
+  .About > .info-container, .About > .image-container {
+    display: block;
+    min-width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .About > .image-container > img.triangle {
+    top: 28%; left: 1rem;
+    max-width: 120px;
+  }
+  .About > .image-container > img.spark {
+    top: -40px; right: -10px;
+    max-width: 120px;
+  }
 }

@@ -1,0 +1,58 @@
+.Location {
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  .title {
+    font-size: 3em;
+  }
+  .Map {
+    margin: 50px 0;
+    width: 80vw;
+    height: calc(80vw / 1.7);
+    max-width: 960px;
+    max-height: 540px;
+  }
+  .Splash {
+    position: absolute;
+    user-select: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1350px;
+    z-index: -1;
+    transition: 0.1s;
+  }
+
+  @media only screen and (max-width: 1350px) {
+    .Splash {
+      width: 100vw;
+      left: -50px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    overflow: hidden;
+    margin: 100px 0;
+    .Map {
+      margin: 30px 0;
+      width: 90vw;
+      height: calc(90vw / 1.4);
+    }
+    .Splash {
+      width: 500px;
+      left: -50px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .Splash {
+      width: 120vw;
+      left: -40px;
+      top: 20px;
+      height: 105vw;
+    }
+  }
+}
