@@ -30,7 +30,10 @@ const Footer = () => (
     <div className="Copyright">
       <p>
         Design and branding by
-        <Contributor name="davidtiger" url="https://www.behance.net/Davidtiger" />
+        <Contributor
+          name="davidtiger"
+          url="https://www.behance.net/Davidtiger"
+        />
         , coded in React.js by our
         <Contributor
           name="awesome contributors"
