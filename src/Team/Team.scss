@@ -1,9 +1,12 @@
 .Team {
   color: white;
   font-family: AktivGrotesk, sans-serif;
+  text-align: center;
+
   .title {
     font-size: 3em;
   }
+
   .List {
     display: flex;
     justify-content: center;

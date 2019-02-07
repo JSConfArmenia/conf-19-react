@@ -3,8 +3,10 @@
   text-transform: uppercase;
   vertical-align: top;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  white-space: nowrap;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  padding: 1em;
   border: none;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;

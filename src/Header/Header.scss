@@ -1,0 +1,65 @@
+.Header {
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #060e4eea;
+  z-index: 1000;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Logo {
+    width: 75px;
+    margin-right: 10px;
+
+    .LogoImg {
+      width: 60px;
+    }
+  }
+
+  .Navigation {
+
+    // width: calc(100% - 120px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .Link {
+      font-size: .9em;
+      display: block;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 4px 0;
+      margin: 0 1em;
+      border-bottom: 2px solid transparent;
+      transition: all .25s ease;
+
+      &:hover {
+        border-color: #fff;
+      }
+    }
+  }
+
+  .ActionButton {
+    margin-left: 1em;
+  }
+
+
+  @media (min-width:1024px) {
+    .Logo {
+      width: 100px;
+      margin-right:20px;
+    }
+  }
+
+}
+
+
