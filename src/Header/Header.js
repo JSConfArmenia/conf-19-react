@@ -6,7 +6,6 @@ import { Button } from '_components';
 import './Header.scss';
 
 class Header extends Component {
-
   constructor(props) {
     super(props);
 
