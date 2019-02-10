@@ -17,6 +17,7 @@
   .Logo {
     width: 75px;
     margin-right: 10px;
+    text-align: center;
 
     .LogoImg {
       width: 60px;
@@ -27,8 +28,11 @@
 
     // width: calc(100% - 120px);
     display: flex;
+    position: absolute;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 
     .Link {
       font-size: .9em;
@@ -52,11 +56,56 @@
     margin-left: 1em;
   }
 
+  .NavBtn {
+    display: none;
+  }
+
 
   @media (min-width:1024px) {
     .Logo {
       width: 100px;
       margin-right:20px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      justify-content: center;
+    }
+
+    .Navigation {
+      top: -500px;
+      transition: top .3s ease;
+    }
+
+    &.-open .Navigation {
+      top: 0;
+      transition: top .3s ease;
+    }
+
+    .NavBtn {
+      display: inline;
+      top: 0;
+      position: absolute;
+      right: 0;
+      margin: 20px 20px;
+      font-size: 30px;
+    }
+
+    .Navigation {
+      flex-direction: column;
+    }
+  
+    .Logo {
+      position: absolute;
+      margin-right: 0;
+      top: 0;
+      left: 0;
+      margin: 10px;
+    }
+
+    .LogoImg {
+      width: 40px;
     }
   }
 
