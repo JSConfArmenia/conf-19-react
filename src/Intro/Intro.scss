@@ -2,15 +2,31 @@
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 19%;
-  background-image: url(/bckg-city.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 15%;
+
+  position: relative;
 
   .Info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+  }
+
+  &:before {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/cityscape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    z-index: -1;
+    opacity: .75;
   }
 }
 
