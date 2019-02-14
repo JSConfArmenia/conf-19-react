@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import { Button } from '_components';
 // import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
@@ -70,14 +71,14 @@ class Header extends Component {
             />
           </div>
           <nav className="Navigation">
-            <a className="Link" href="#About" onClick={() => this.close()}>About</a>
-            <a className="Link" href="#Schedule" onClick={() => this.close()}>Schedule</a>
-            <a className="Link" href="#Speakers" onClick={() => this.close()}>Speakers</a>
-            <a className="Link" href="#Sponsors" onClick={() => this.close()}>Sponsors</a>
-            <a className="Link" href="#Team" onClick={() => this.close()}>Team</a>
-            <a className="Link" href="#Location" onClick={() => this.close()}>Location</a>
-            <a className="Link" href="#FAQ" onClick={() => this.close()}>FAQ</a>
-            <a className="Link" href="#Quiz" onClick={() => this.close()}>Quiz</a>
+            <Link to="About" smooth="true" className="Link" onClick={() => this.close()}>About</Link>
+            <Link to="Schedule" smooth="true" className="Link" onClick={() => this.close()}>Schedule</Link>
+            <Link to="Speakers" smooth="true" className="Link" onClick={() => this.close()}>Speakers</Link>
+            <Link to="Sponsors" smooth="true" className="Link" onClick={() => this.close()}>Sponsors</Link>
+            <Link to="Team" smooth="true" className="Link" onClick={() => this.close()}>Team</Link>
+            <Link to="Location" smooth="true" className="Link" onClick={() => this.close()}>Location</Link>
+            <Link to="FAQ" smooth="true" className="Link" onClick={() => this.close()}>FAQ</Link>
+            <Link to="Quiz" smooth="true" className="Link" onClick={() => this.close()}>Quiz</Link>
             <Button link className="ActionButton">Request an Invite</Button>
           </nav>
         </div>
