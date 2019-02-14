@@ -1,0 +1,59 @@
+.Sponsors {
+    text-align:center;
+    width:60%;
+    margin:auto;
+    margin-bottom:100px;
+
+
+
+    .Sponsors-info {
+        display:inline-block;
+        vertical-align: middle;
+        width:40%;
+        margin-right:5%;
+        text-align:left;
+        p {
+            display:inline-block;
+            color:#C3C8E5;
+            margin:1em 0;
+            line-height: 1.5em;
+            max-width:17em;
+        }
+    }
+
+    .Sponsors-image {
+        text-align:right;
+
+        display:inline-block;
+        vertical-align:middle;
+        width:40%;
+        img {
+            width:100%;
+            max-width:300px;
+        }
+    }
+  
+
+    @media only screen and (max-width:768px) {
+        width:90%;
+ 
+        .Sponsors-info {
+            display:block;
+            width:100%;
+            text-align:center;
+            p {
+                display: block;
+                max-width:80%;
+                margin-left:auto;
+                margin-right:auto;
+            }
+        }
+        .Sponsors-image {
+            display:block;
+            margin:auto;
+            text-align:center;
+            width:70%;
+        }
+    }
+
+}
