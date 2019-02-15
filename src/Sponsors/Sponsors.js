@@ -18,7 +18,13 @@ Call for
           <TitleAccent color="primary1"> Sponsors</TitleAccent>
         </Title>
         <p>{text}</p>
-        <Button color="orange">BECOME A SPONSOR</Button>
+        <Button
+          link
+          href="http://bit.ly/sponsorReactConf2019"
+          color="orange"
+        >
+        BECOME A SPONSOR
+        </Button>
       </div>
       <div className="Sponsors-image">
         <img src="/sponsors.png" alt="" />

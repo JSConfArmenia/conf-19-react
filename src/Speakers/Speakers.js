@@ -20,7 +20,7 @@ Call for
           <TitleAccent color="hero"> Speakers</TitleAccent>
         </Title>
         <p>{text}</p>
-        <Button>Become a SPEAKER</Button>
+        <Button link href="http://bit.ly/speakReact">Become a SPEAKER</Button>
       </div>
     </div>
   );
