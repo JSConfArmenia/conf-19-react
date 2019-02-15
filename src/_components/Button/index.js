@@ -10,7 +10,7 @@ const Button = ({
   ...props
 }) => (link
   ? (
-    <a className={`button ${color} ${className}`} {...props}>
+    <a target="_blank" className={`button ${color} ${className}`} {...props}>
       {children}
     </a>
   )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import { Button } from '_components';
+import FontAwesome from 'react-fontawesome';
 // import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
@@ -72,18 +73,26 @@ class Header extends Component {
           </div>
           <nav className="Navigation">
             <Link to="About" smooth="true" spy="true" className="Link" onClick={() => this.close()}>About</Link>
-            <Link to="Schedule" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Schedule</Link>
+            {/* <Link to="Schedule" smooth="true" spy="true" className="Link" onClick={()
+             => this.close()}>Schedule</Link> */}
             <Link to="Speakers" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Speakers</Link>
             <Link to="Sponsors" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Sponsors</Link>
             <Link to="Team" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Team</Link>
             <Link to="Location" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Location</Link>
             <Link to="FAQ" smooth="true" spy="true" className="Link" onClick={() => this.close()}>FAQ</Link>
-            <Link to="Quiz" smooth="true" spy="true" className="Link" onClick={() => this.close()}>Quiz</Link>
-            <Button link className="ActionButton">Request an Invite</Button>
+            {/* <Link to="Quiz" smooth="true" spy="true" className="Link" onClick={()
+             => this.close()}>Quiz</Link> */}
+            <Button
+              link
+              className="ActionButton"
+              href="http://bit.ly/joinReactConfAM"
+            >
+              Request an Invite
+            </Button>
           </nav>
         </div>
         <a href="#Intro" className="NavBtn" onClick={e => this.toggle(e)}>
-          Nav
+          <FontAwesome name="bars" />
         </a>
       </header>
     );
