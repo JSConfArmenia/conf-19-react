@@ -51,7 +51,7 @@
       transition: all .25s ease;
       cursor: pointer;
 
-      &:hover {
+      &.active, &:hover {
         border-color: #fff;
       }
     }
