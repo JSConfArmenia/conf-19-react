@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import { Button } from '_components';
+import FontAwesome from 'react-fontawesome';
 // import Container from 'react-bootstrap/Container';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
@@ -91,7 +92,7 @@ class Header extends Component {
           </nav>
         </div>
         <a href="#Intro" className="NavBtn" onClick={e => this.toggle(e)}>
-          Nav
+          <FontAwesome name="bars" />
         </a>
       </header>
     );
