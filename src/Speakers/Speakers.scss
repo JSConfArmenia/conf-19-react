@@ -1,6 +1,7 @@
 .Speakers {
     text-align:center;
     width:60%;
+    max-width:50em;
     margin:auto;
     margin-bottom:100px;
 
@@ -21,11 +22,9 @@
         width:40%;
         text-align:right;
         p {
-            display:inline-block;
             color:#C3C8E5;
             margin:1em 0;
             line-height: 1.5em;
-            max-width:17em;
         }
         
   
@@ -45,7 +44,6 @@
             width:100%;
             text-align:center;
             p {
-                display: block;
                 max-width:80%;
                 margin-left:auto;
                 margin-right:auto;
