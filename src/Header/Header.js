@@ -86,11 +86,11 @@ class Header extends Component {
             <Link to="About" smooth="true" spy={true} className="Link" onClick={() => this.close()}>About</Link>
             {/* <Link to="Schedule" smooth="true" spy={true} className="Link" onClick={()
              => this.close()}>Schedule</Link> */}
-            <Link to="Speakers" smooth="true" spy={true} className="Link" onClick={() => this.close()}>Speakers</Link>
-            <Link to="Sponsors" smooth="true" spy={true} className="Link" onClick={() => this.close()}>Sponsors</Link>
-            <Link to="Team" smooth="true" spy={true} className="Link" onClick={() => this.close()}>Team</Link>
-            <Link to="Location" smooth="true" spy={true} className="Link" onClick={() => this.close()}>Location</Link>
-            <Link to="FAQ" smooth="true" spy={true} className="Link" onClick={() => this.close()}>FAQ</Link>
+            <Link to="Speakers" smooth="true" spy={true} offset={100} className="Link" onClick={() => this.close()}>Speakers</Link>
+            <Link to="Sponsors" smooth="true" spy={true} offset={100}  className="Link" onClick={() => this.close()}>Sponsors</Link>
+            <Link to="Team" smooth="true" spy={true} offset={100}  className="Link" onClick={() => this.close()}>Team</Link>
+            <Link to="Location" smooth="true" spy={true} offset={100}  className="Link" onClick={() => this.close()}>Location</Link>
+            <Link to="FAQ" smooth="true" spy={true} offset={100} className="Link" onClick={() => this.close()}>FAQ</Link>
             {/* <Link to="Quiz" smooth="true" spy={true} className="Link" onClick={()
              => this.close()}>Quiz</Link> */}
             <Button
