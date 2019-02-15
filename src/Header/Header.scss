@@ -5,10 +5,11 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  transition: all .25s ease;
 
-  &.-sticked {
+  &.-is-sticked {
     position: fixed;
-    background-color: #060e4eea;
+    background-color: rgba(6, 14, 78, 0.918);
   }
 
   .container {
