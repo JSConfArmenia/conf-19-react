@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
+import { Link } from 'react-scroll';
+
 import { TitleAccent, Title } from '../_components';
 import './Faq.css';
 
@@ -25,7 +27,17 @@ export default () => (
           <h3>Who are the speakers?</h3>
           <p>
             To learn more about our speakers, please, click here.
-            Want to join them? <a href="#FAQ">Apply here</a> to become a speaker.
+            Want to join them?
+            <Link
+              to="Speakers"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+            >
+              Apply here
+            </Link>&nbsp;
+            to become a speaker.
           </p>
           <h3>What are the talk topics?</h3>
           <p>To see the talk sessions timetable and topics, please click here.</p>
@@ -54,7 +66,18 @@ export default () => (
             part in the pre-conference activities.
           </p>
           <h3>Who are behind the React Conf Armenia?</h3>
-          <p>To see the React Conf Armenia team, please, click <a href="#Team">here</a>.</p>
+          <p>To see the React Conf Armenia team, please, click&nbsp;
+            <Link
+              to="Team"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+            >
+              here
+            </Link>
+          .
+          </p>
           <h3>How to join the team?</h3>
           <p>
             To help the team to make React Conf Armenia happen please
@@ -62,7 +85,17 @@ export default () => (
           </p>
           <h3>Who supports React Conf Armenia?</h3>
           <p>
-            To learn about our sponsors and partners, please, click <a href="#Sponsors">here</a>.
+            To learn about our sponsors and partners, please, click&nbsp;
+            <Link
+              to="Sponsors"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+            >
+              here
+            </Link>
+            .
           </p>
           <h3>Will I get a certificate of participation?</h3>
           <p>
