@@ -135,7 +135,7 @@ class Header extends Component {
             >
               Location
             </Link>
-            <Link
+            {/* <Link
               to="FAQ"
               smooth="true"
               spy={true}
@@ -144,7 +144,7 @@ class Header extends Component {
               onClick={() => this.close()}
             >
               FAQ
-            </Link>
+            </Link> */}
             {/* <Link to="Quiz" smooth="true" spy={true} className="Link" onClick={()
              => this.close()}>Quiz</Link> */}
             <Button
