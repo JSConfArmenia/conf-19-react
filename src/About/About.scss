@@ -1,6 +1,13 @@
 @import '../_common/utils';
 
-.Sponsors {
+.About {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: initial;
+  color: white;
+  padding-top: 100px;
   padding-bottom: 100px;
 
   .IllustrationContainer {
@@ -14,12 +21,15 @@
 
   .Illustration {
     position: relative;
-    width: 75%;
+    width: 100%;
   }
 
   @include media-down(md) {
     .Illustration {
-      width: 50%;
+      width: 60%;
     }
   }
 }
+
+
+

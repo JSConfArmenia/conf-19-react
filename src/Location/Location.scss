@@ -28,6 +28,52 @@
     transition: 0.1s;
   }
 
+  .Marker {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    left: -80px;
+    top: 20px;
+    width: 150px;
+    transition: all .3s ease;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    transition: all .3s ease;
+
+    .MarkerIllustration {
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 10px;
+      // border-radius: 50%;
+      background-image: url(https://onsen.io/images/design_2016/image_rocket.png);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .MarkerText {
+      text-align: center;
+      white-space: nowrap;
+      padding: 3px 15px;
+      background: #d91dbd;
+      font-weight: bold;
+      // transition: all .3s ease;
+      border-radius: 3px;
+    }
+
+    &:hover {
+      .MarkerText {
+        background: #00ded3;
+      }
+    }
+  }
+
   @media only screen and (max-width: 1350px) {
     .Splash {
       width: 100vw;
