@@ -85,6 +85,7 @@ class Header extends Component {
 
           <Button
             link
+            size="small"
             className="ActionButton MobileActionButton"
             href="http://bit.ly/joinReactConfAM"
           >
@@ -158,6 +159,7 @@ class Header extends Component {
              => this.close()}>Quiz</Link> */}
             <Button
               link
+              size="small"
               className="ActionButton"
               href="http://bit.ly/joinReactConfAM"
             >
