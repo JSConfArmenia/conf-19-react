@@ -84,7 +84,7 @@
 
   @media (max-width: 600px) {
 
-    padding:5px 0;
+    padding: 5px 0;
 
     .container {
       // padding: 0;
@@ -103,10 +103,12 @@
       background-color: #060e4eea;
       width: 100%;
       padding-top: 25px;
+      z-index: -1;
     }
 
     &.-open .Navigation {
-      top: 0;
+      top: 66px;
+      left: 0;
       transition: top .3s ease;
     }
 
