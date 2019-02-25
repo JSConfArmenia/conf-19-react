@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './styles.scss';
 
 const Title = ({ className, children, ...props }) => (
-  <h2 className={`title ${className}`} {...props}>
+  <h2 className={`Title ${className}`} {...props}>
     {children}
   </h2>
 );
