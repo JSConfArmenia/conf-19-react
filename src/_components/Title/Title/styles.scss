@@ -1,6 +1,12 @@
+@import '~_common/utils';
+
 .Title {
   font-size: 3.25rem;
   font-family: Rajdhani;
   color: #FFFFFF;
   margin-bottom: 2rem;
+
+  @include media-down(lg) {
+    font-size: 2.75rem;
+  }
 }

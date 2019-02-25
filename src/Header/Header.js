@@ -82,6 +82,15 @@ class Header extends Component {
               alt="React Conference 2019 Logo"
             />
           </div>
+
+          <Button
+            link
+            className="ActionButton MobileActionButton"
+            href="http://bit.ly/joinReactConfAM"
+          >
+            Request an Invite
+          </Button>
+
           <nav className="Navigation">
             <Link
               to="About"
@@ -155,10 +164,10 @@ class Header extends Component {
               Request an Invite
             </Button>
           </nav>
+          <a href="#Intro" className="NavBtn" onClick={e => this.toggle(e)}>
+            <FontAwesome name="bars" />
+          </a>
         </div>
-        <a href="#Intro" className="NavBtn" onClick={e => this.toggle(e)}>
-          <FontAwesome name="bars" />
-        </a>
       </header>
     );
   }

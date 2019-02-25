@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.eot");
+  src: local("Rajdhani"), local("Rajdhani-Regular"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Regular.svg#Rajdhani-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Light.eot");
+  src: local("Rajdhani Light"), local("Rajdhani-Light"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Light.svg#Rajdhani-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.eot");
+  src: local("Rajdhani Bold"), local("Rajdhani-Bold"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Bold.svg#Rajdhani-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.eot");
+  src: local("Rajdhani Medium"), local("Rajdhani-Medium"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-Medium.svg#Rajdhani-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.eot");
+  src: local("Rajdhani SemiBold"), local("Rajdhani-SemiBold"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.woff2") format("woff2"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.woff") format("woff"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.ttf") format("truetype"),
+    url("~_assets/Fonts/Rajdhani/Rajdhani-SemiBold.svg#Rajdhani-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-XBoldItalic";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.eot");
+  src: local("Aktiv Grotesk XBold Italic"), local("AktivGrotesk-XBoldItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBoldItalic.svg#AktivGrotesk-XBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.eot");
+  src: local("Aktiv Grotesk Thin Italic"), local("AktivGrotesk-ThinItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-ThinItalic.svg#AktivGrotesk-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.eot");
+  src: local("Aktiv Grotesk Bold Italic"), local("AktivGrotesk-BoldItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BoldItalic.svg#AktivGrotesk-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.eot");
+  src: local("Aktiv Grotesk Italic"), local("AktivGrotesk-Italic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Italic.svg#AktivGrotesk-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-Hairline";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.eot");
+  src: local("Aktiv Grotesk Hairline"), local("AktivGrotesk-Hairline"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Hairline.svg#AktivGrotesk-Hairline") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.eot");
+  src: local("Aktiv Grotesk Light Italic"), local("AktivGrotesk-LightItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-LightItalic.svg#AktivGrotesk-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-HairlineItalic";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.eot");
+  src: local("Aktiv Grotesk Hairline Italic"),
+    local("AktivGrotesk-HairlineItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-HairlineItalic.svg#AktivGrotesk-HairlineItalic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.eot");
+  src: local("Aktiv Grotesk Bold"), local("AktivGrotesk-Bold"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Bold.svg#AktivGrotesk-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.eot");
+  src: local("Aktiv Grotesk Medium Italic"), local("AktivGrotesk-MediumItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-MediumItalic.svg#AktivGrotesk-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.eot");
+  src: local("Aktiv Grotesk Medium"), local("AktivGrotesk-Medium"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Medium.svg#AktivGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.eot");
+  src: local("Aktiv Grotesk Light"), local("AktivGrotesk-Light"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Light.svg#AktivGrotesk-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.eot");
+  src: local("Aktiv Grotesk Black Italic"), local("AktivGrotesk-BlackItalic"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-BlackItalic.svg#AktivGrotesk-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-XBold";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.eot");
+  src: local("Aktiv Grotesk XBold"), local("AktivGrotesk-XBold"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-XBold.svg#AktivGrotesk-XBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.eot");
+  src: local("Aktiv Grotesk Thin"), local("AktivGrotesk-Thin"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Thin.svg#AktivGrotesk-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AktivGrotesk";
+  src: url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.eot");
+  src: local("Aktiv Grotesk"), local("AktivGrotesk-Regular"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.woff2") format("woff2"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.woff") format("woff"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.ttf") format("truetype"),
+    url("~_assets/Fonts/AktivGrotesk/AktivGrotesk-Regular.svg#AktivGrotesk-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

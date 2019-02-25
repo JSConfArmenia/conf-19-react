@@ -1,3 +1,5 @@
+@import '../_common/utils';
+
 .About {
   position: relative;
   display: flex;
@@ -14,6 +16,7 @@
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   .Illustration {
@@ -21,8 +24,10 @@
     width: 100%;
   }
 
-  @media (max-width: 768px) {
-
+  @include media-down(md) {
+    .Illustration {
+      width: 60%;
+    }
   }
 }
 
