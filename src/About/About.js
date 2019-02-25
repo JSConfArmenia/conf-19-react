@@ -24,7 +24,7 @@ const About = () => (
     <div className="image-container">
       <img className="triangle icon" src="./about-section-triangle.png" alt="triangle" />
       <img className="spark icon" src="./about-section-spark.png" alt="spark" />
-      <img className="main" src="./about-section-image.png" alt="about section" />
+      <img className="main" src="./about-section-image.jpg" alt="about section" />
     </div>
   </div>
 );
