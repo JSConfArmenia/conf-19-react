@@ -2,14 +2,13 @@
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 15%;
-
+  padding-top: 27vh;
   position: relative;
+  font-family: Rajdhani;
 
   .Info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
   }
 
   &:before {
@@ -26,7 +25,7 @@
     background-position-y: bottom;
     background-position-x: center;
     z-index: -1;
-    opacity: .75;
+    opacity: .85;
   }
 }
 
