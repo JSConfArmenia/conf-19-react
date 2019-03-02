@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3",
+    "@rehooks/window-scroll-position": "github:rehooks/window-scroll-position",
+    "bootstrap": "^4.2.1",
+    "google-map-react": "^1.1.2",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "^2.1.5",
+    "react-scroll": "^1.7.11",
     "serve": "^10.1.1"
   },
   "scripts": {
@@ -18,6 +25,9 @@
     "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages",
     "postinstall": "npm run build"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -31,6 +41,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-watch": "^4.0.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "pre-commit": "^1.2.2"
   }
 }

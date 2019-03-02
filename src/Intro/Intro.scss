@@ -1,0 +1,61 @@
+.Intro {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 27vh;
+  position: relative;
+  font-family: Rajdhani;
+
+  .Info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &:before {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(/cityscape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    z-index: -1;
+    opacity: .85;
+  }
+}
+
+.Intro p {
+  color: #00ded3;
+  font-weight: bold;
+}
+
+.Intro h1 {
+  margin: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media (min-width:450px) {
+  .Intro p {
+    font-size:1.5em;
+  }
+  .Intro h1 {
+    font-size:3em;
+  }
+}
+
+@media (min-width:650px) {
+
+  .Intro p {
+    font-size: 1.5em;
+  }
+
+  .Intro h1 {
+     font-size: 4em;
+  }
+}

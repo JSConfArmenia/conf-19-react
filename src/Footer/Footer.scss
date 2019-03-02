@@ -1,0 +1,112 @@
+.Footer {
+  background-image: url('/planet-react.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25px;
+  background-size: cover;
+  color: white;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: AktivGrotesk, sans-serif;
+
+  .Title {
+    font-size: 20px;
+    width: 200px;
+    margin: auto;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .Link {
+    color: #00ded3;
+    text-decoration: underline;
+  }
+
+  .Icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    .Icon {
+      margin: 0 15px;
+      svg {
+        fill: white;
+        transition: 0.2s;
+        width: 35px;
+        height: 35px;
+      }
+      &:hover {
+        svg {
+          fill: #d91dbd;
+        }
+      }
+    }
+  }
+
+  .PressRelease {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.2em;
+    .Link {
+      text-decoration: underline;
+      margin: 0 5px;
+      font-size: 1.1em;
+    }
+  }
+
+  .Copyright {
+    font-size: 0.9em;
+    text-align: center;
+
+    p {
+      margin: 10px 20px 30px;
+    }
+    .Link {
+      margin-left: 5px;
+      &:nth-child(3) {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 560px) {
+    background-position-y: 100%;
+    background-size: 1200px;
+    height: 757px;
+
+    .Title {
+      font-size: 32px;
+    }
+    .Icon svg {
+      width: 30px;
+      height: 30px;
+    }
+    .Copyright p {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 330px) {
+    background-position-y: 100%;
+    background-size: 1000px;
+    height: 630px;
+
+    .Title {
+      font-size: 30px;
+    }
+    .Icon svg {
+      width: 20px;
+      height: 20px;
+    }
+    .Copyright p {
+      margin: 10px 25px 30px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.Button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  vertical-align: top;
+  font-weight: bold;
+  white-space: nowrap;
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  padding: 1rem;
+  border: none;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+
+  background-color: transparent;
+  cursor: pointer;
+  background-size: contain;
+  background-position-y: center;
+  background-repeat: round no-repeat;
+  color:black;
+  text-align: center;
+  margin-right: 0px;
+
+  &.-size-default {
+    font-size: 1.3rem;
+    width: 18rem;
+    height: 4.5rem;
+  }
+
+  &.-size-small {
+    font-size: 0.8em;
+    height: 2.5rem;
+    width: 10rem;
+    background-position-y: -3px;
+  }
+
+  &.-color-pink {
+    background-image: url("/button-bckg-pink.png");
+  }
+  &.-color-orange {
+    background-image: url("/button-bckg-orange.png");
+  }
+
+  &:hover {
+    background-image: url("/button-bckg-blue.png");
+    border-bottom-color: transparent;
+  }
+}

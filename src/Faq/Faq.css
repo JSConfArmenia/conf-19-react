@@ -1,0 +1,23 @@
+.FAQ {
+  margin: 100px 0;
+}
+
+.FAQ .title {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.FAQ p {
+  line-height: 1.5;
+  margin: 15px 0 30px 0;
+}
+
+.FAQ a {
+  color: #D91DBD;
+  text-decoration: underline;
+}
+
+.Link:hover {
+  cursor: pointer;
+}
