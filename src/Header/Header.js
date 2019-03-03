@@ -160,7 +160,7 @@ class Header extends Component {
             <Button
               link
               size="small"
-              className="ActionButton"
+              className="ActionButton DesktopActionButton"
               href="http://bit.ly/joinReactConfAM"
             >
               Request an Invite

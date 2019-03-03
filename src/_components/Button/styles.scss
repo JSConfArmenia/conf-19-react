@@ -46,4 +46,11 @@
     background-image: url("/button-bckg-blue.png");
     border-bottom-color: transparent;
   }
+
+
+  @media (max-width: 600px) {
+    &.-size-small {
+      background-position-y: 0px;
+    }
+  }
 }
