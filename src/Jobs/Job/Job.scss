@@ -1,0 +1,29 @@
+.Job {
+  font-family: AktivGrotesk;
+  cursor: pointer;
+  &.active, &:hover {
+    .Job-Title {
+      color: #00DED3;
+    }
+    .Job-Company {
+      color: #D91DBD;
+    }
+  }
+}
+
+.Job-Title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 0;
+  
+}
+
+.Job-Company {
+  font-weight: 500;
+  font-size: 16px;
+  color: #c3c8e6;
+  margin: 0;
+
+}
+
