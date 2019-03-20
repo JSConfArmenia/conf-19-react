@@ -1,0 +1,86 @@
+export default {
+  Jesse_Martin: {
+    img: '/speakers/Jesse_Martin.jpg',
+    name: 'Jesse Martin',
+    position: 'Full-stack Developer at GraphCMS',
+    topic: 'Product Ready React with GatsbyJS',
+  },
+  Roy_Derks: {
+    img: '/speakers/Roy_Derks.jpg',
+    name: 'Roy Derks',
+    position: 'Serial Startup CTO, Teacher at reactjs.academy',
+    topic: 'Handling Large-Scale State-Management with Context and Hooks',
+  },
+  Varik_Matevosyan: {
+    img: '/speakers/Varik_Matevosyan.jpg',
+    name: 'Varik Matevosyan',
+    position: 'CTO at Steadfast',
+    topic: 'Testing React in a right way',
+  },
+  Khachatur_Virabyan: {
+    img: '/speakers/Khachatur_Virabyan.jpg',
+    name: 'Khachatur Virabyan',
+    position: 'React Developer at Renderforest',
+    topic: 'Dynamic styling systems with React',
+  },
+  Eugene_Zharkov: {
+    img: '/speakers/Eugene_Zharkov.jpg',
+    name: 'Eugene Zharkov',
+    position: 'React Native Developer at vidIQ',
+    topic: 'Monorepo: React Web & React Native',
+  },
+  Leandro_Ostera: {
+    img: '/speakers/Leandro_Ostera.jpg',
+    name: 'Leandro Ostera',
+    position: 'Senior Web Engineer at SRC',
+    topic: 'A Reasonable Web',
+  },
+  Sara_Vieira: {
+    img: '/speakers/Sara_Vieira.jpg',
+    name: 'Sara Vieira',
+    position: 'Developer at CodeSandbox',
+    topic: 'Let’s manage our local state with GraphQL',
+  },
+  Denys_Radin: {
+    img: '/speakers/Denys_Radin.jpg',
+    name: 'Denys Radin',
+    position: 'Author of HTML-GL, ReactiveElements, JavaScript/WebGL engineer at Evolution Gaming',
+    topic: 'Photorealistic 3D graphics on the Web with ReactJS, WebGL and Unity3D',
+  },
+  Gagik_Arustamyan: {
+    img: '/speakers/Gagik_Arustamyan.jpg',
+    name: 'Gagik Arustamyan',
+    position: 'Head of Front-end/JavaScript development at SFL',
+    topic: 'From design systems to component libraries',
+  },
+  Radoslaw_Malecki: {
+    img: '/speakers/Radoslaw_Malecki.jpg',
+    name: 'Radoslaw Malecki',
+    position: 'Senior Frontend Developer at OLX Group',
+    topic: 'Let\'s make a photo booth in React!',
+  },
+  Miłosz_Piechocki: {
+    img: '/speakers/Miłosz_Piechocki.jpg',
+    name: 'Miłosz Piechocki',
+    position: 'Senior Front-end Developer at SumoLogic',
+    topic: 'Make your React code bulletproof with some TypeScript wizardry',
+  },
+  Cristian_Oliveira_da_Rosa: {
+    img: '/speakers/Cristian_Oliveira_da_Rosa.jpg',
+    name: 'Cristian Oliveira da Rosa',
+    position: 'Software Developer at Sumup.com',
+    topic: 'React to the need for speed',
+  },
+  Elizabet_Oliveira: {
+    img: '/speakers/Elizabet_Oliveira.jpg',
+    name: 'Elizabet Oliveira',
+    position: 'Senior UX Designer at Optum',
+    topic: 'An SVG’s Tale',
+  },
+  Lilit_Tadevosyan: {
+    img: '/speakers/Lilit_Tadevosyan.jpg',
+    name: 'Lilit Tadevosyan',
+    position: 'Lead JavaScript developer at SFL',
+    topic: 'N/A',
+  },
+};

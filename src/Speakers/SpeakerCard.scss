@@ -1,0 +1,38 @@
+.SpeakerCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+
+  .SpeakerImgContainer {
+    flex: 0;
+  }
+
+  .SpeakerInfoContainer {
+    flex: 1;
+    padding: 10px 30px;
+  }
+
+  .SpeakerImg {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .SpeakerName {
+    margin-bottom: 5px;
+  }
+
+  .SpeakerPosition {
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+  }
+
+  .SpeakerTopic {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: rgb(0, 222, 211);
+  }
+}
