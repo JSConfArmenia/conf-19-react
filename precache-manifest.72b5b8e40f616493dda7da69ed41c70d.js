@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BoldItalic.9466c4dc.svg"
   },
   {
-    "revision": "7b5b9fa491e0249fd6bbc7d66aa13a06",
+    "revision": "a47a6beaf890c150fb1e7195c9b6f7e7",
     "url": "/index.html"
   }
 ];
