@@ -7,7 +7,7 @@ export default {
   },
   Roy_Derks: {
     img: '/speakers/Roy_Derks.jpg',
-    name: '/speakers/Roy_Derks.jpg',
+    name: 'Roy Derks',
     position: 'Serial Startup CTO, Teacher at reactjs.academy',
     topic: 'Handling Large-Scale State-Management with Context and Hooks',
   },

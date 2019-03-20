@@ -1,8 +1,16 @@
 @import '../_common/utils';
 
 .Speakers {
-  text-align: right;
+
   padding-bottom: 100px;
+
+  .SpeakersTitleContainer {
+    text-align: center;
+  }
+
+  .SpeakersApplicationContainer {
+    text-align: right;
+  }
 
   .IllustrationContainer {
     width: 100%;
