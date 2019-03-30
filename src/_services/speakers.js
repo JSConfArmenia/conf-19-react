@@ -26,7 +26,7 @@ export default {
   Eugene_Zharkov: {
     img: '/speakers/Eugene_Zharkov.jpg',
     name: 'Eugene Zharkov',
-    position: 'React Native Developer at vidIQ',
+    position: 'React Native Developer',
     topic: 'Monorepo: React Web & React Native',
   },
   Leandro_Ostera: {
