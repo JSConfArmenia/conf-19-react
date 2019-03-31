@@ -17,6 +17,7 @@ const speakersList = [
   'Elizabet_Oliveira',
   'Jesse_Martin',
   'Khachatur_Virabyan',
+  'Rebecca_Hill'
   'Eugene_Zharkov',
   'Varik_Matevosyan',
   'Leandro_Ostera',
