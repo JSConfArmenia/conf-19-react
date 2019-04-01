@@ -19,11 +19,11 @@ const Footer = () => (
     </ul>
     <div className="PressRelease">
       <p>Press release</p>
-      <a className="Link" href="/">
+      <a className="Link" href="/ReactConfAM19_PR_EN.pdf">
         EN
       </a>
       /
-      <a className="Link" href="/">
+      <a className="Link" href="/ReactConfAM19_PR_ARM.pdf">
         AM
       </a>
     </div>
