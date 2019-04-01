@@ -88,5 +88,5 @@ export default {
     name: 'Rebecca Hill',
     position: 'Senior Frontend Developer and Team Lead at WeTransfer',
     topic: 'Structuring your app\'s business logic',
-  },  
+  },
 };
