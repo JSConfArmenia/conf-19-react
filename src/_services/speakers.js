@@ -53,12 +53,6 @@ export default {
     position: 'Head of Front-end/JavaScript development at SFL',
     topic: 'From design systems to component libraries',
   },
-  Rebecca_Hill: {
-    img: '/speakers/Rebecca_Hill.jpg',
-    name: 'Rebecca Hill',
-    position: 'Senior Frontend Developer and Team Lead at WeTransfer',
-    topic: 'Structuring your app\'s business logic',
-  },  
   Radoslaw_Malecki: {
     img: '/speakers/Radoslaw_Malecki.jpg',
     name: 'Radoslaw Malecki',
@@ -89,4 +83,10 @@ export default {
     position: 'Lead JavaScript developer at SFL',
     topic: 'N/A',
   },
+    Rebecca_Hill: {
+    img: '/speakers/Rebecca_Hill.jpg',
+    name: 'Rebecca Hill',
+    position: 'Senior Frontend Developer and Team Lead at WeTransfer',
+    topic: 'Structuring your app\'s business logic',
+  },  
 };
