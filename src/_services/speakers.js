@@ -83,4 +83,10 @@ export default {
     position: 'Lead JavaScript developer at SFL',
     topic: 'N/A',
   },
+  Rebecca_Hill: {
+    img: '/speakers/Rebecca_Hill.jpg',
+    name: 'Rebecca Hill',
+    position: 'Senior Frontend Developer and Team Lead at WeTransfer',
+    topic: 'Structuring your app\'s business logic',
+  },
 };
