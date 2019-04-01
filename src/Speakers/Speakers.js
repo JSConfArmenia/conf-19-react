@@ -17,6 +17,7 @@ const speakersList = [
   'Elizabet_Oliveira',
   'Jesse_Martin',
   'Khachatur_Virabyan',
+  'Rebecca_Hill',
   'Eugene_Zharkov',
   'Varik_Matevosyan',
   'Leandro_Ostera',
@@ -24,7 +25,6 @@ const speakersList = [
   'Gagik_Arustamyan',
   'Radoslaw_Malecki',
   'Miłosz_Piechocki',
-  'Rebecca_Hill',
 ].map(id => ({
   id,
   ...speakersSerivce[id],
