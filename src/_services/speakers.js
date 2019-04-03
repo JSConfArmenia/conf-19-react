@@ -59,6 +59,12 @@ export default {
     position: 'Senior Frontend Developer at OLX Group',
     topic: 'Let\'s make a photo booth in React!',
   },
+  Narendra_Shetty: {
+    img: '/speakers/Narendra-Shetty.jpg',
+    name: 'Narendra Shetty',
+    position: 'Senior Frontend Developer at Twilio',
+    topic: 'Turning an Application UI into an API',
+  },
   Miłosz_Piechocki: {
     img: '/speakers/Miłosz_Piechocki.jpg',
     name: 'Miłosz Piechocki',
