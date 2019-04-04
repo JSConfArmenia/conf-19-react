@@ -23,8 +23,10 @@ const speakersList = [
   'Leandro_Ostera',
   'Lilit_Tadevosyan',
   'Gagik_Arustamyan',
+  'Taguhi_Asatryan',
   'Radoslaw_Malecki',
   'Miłosz_Piechocki',
+  'Narendra_Shetty',
 ].map(id => ({
   id,
   ...speakersSerivce[id],
