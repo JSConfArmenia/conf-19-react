@@ -12,12 +12,13 @@ import SpeakerCard from './SpeakerCard';
 const speakersList = [
   'Roy_Derks',
   'Sara_Vieira',
-  'Cristian_Oliveira_da_Rosa',
+  'Narendra_Shetty',
   'Denys_Radin',
+  'Cristian_Oliveira_da_Rosa',
+  'Rebecca_Hill',
   'Elizabet_Oliveira',
   'Jesse_Martin',
   'Khachatur_Virabyan',
-  'Rebecca_Hill',
   'Eugene_Zharkov',
   'Varik_Matevosyan',
   'Leandro_Ostera',
@@ -26,7 +27,6 @@ const speakersList = [
   'Taguhi_Asatryan',
   'Radoslaw_Malecki',
   'Miłosz_Piechocki',
-  'Narendra_Shetty',
 ].map(id => ({
   id,
   ...speakersSerivce[id],
