@@ -99,6 +99,6 @@ export default {
     img: '/speakers/Taguhi_Asatryan.jpg',
     name: 'Taguhi Asatryan',
     position: 'Full-Stack Developer at Teamable',
-    topic: 'Testing React Ecosystem: Do\'s and Don\'t',
+    topic: 'Testing React Ecosystem: Do\'s and Don\'ts',
   },
 };
