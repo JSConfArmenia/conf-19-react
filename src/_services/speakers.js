@@ -60,7 +60,7 @@ export default {
     topic: 'Let\'s make a photo booth in React!',
   },
   Narendra_Shetty: {
-    img: '/speakers/Narendra-Shetty.jpg',
+    img: '/speakers/Narendra_Shetty.jpg',
     name: 'Narendra Shetty',
     position: 'Senior Frontend Developer at Twilio',
     topic: 'Turning an Application UI into an API',
