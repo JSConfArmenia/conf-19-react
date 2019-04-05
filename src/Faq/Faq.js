@@ -53,7 +53,7 @@ export default () => (
           <h3>How to participate?</h3>
           <p>
             The entry of React Conf 2018 is invitation-only so please make sure to request
-            your invite <a href="#FAQ">here</a>.
+            your invite <a href="http://bit.ly/joinReactConfAM">here</a>.
           </p>
         </div>
         <div className="col-md-6">
@@ -81,7 +81,7 @@ export default () => (
           <h3>How to join the team?</h3>
           <p>
             To help the team to make React Conf Armenia happen please
-            apply <a href="#FAQ">here</a> to become a React Conf ninja volunteer!
+            apply <a href="http://bit.ly/ReactAngels">here</a> to become a React Conf ninja volunteer!
           </p>
           <h3>Who supports React Conf Armenia?</h3>
           <p>

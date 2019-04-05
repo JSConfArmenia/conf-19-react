@@ -7,7 +7,7 @@ import Team from './Team/Team';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Footer from './Footer/Footer';
-// import FAQ from './Faq/Faq';
+import FAQ from './Faq/Faq';
 import Speakers from './Speakers/Speakers';
 import Sponsors from './Sponsors/Sponsors';
 import Jobs from './Jobs/Jobs';
@@ -29,8 +29,8 @@ const App = () => {
       <Sponsors />
       <Team />
       <Location />
-      {/* <FAQ /> */}
       <Jobs />
+      <FAQ />
       <Footer />
       <div
         className="BackgroundIllustration"
