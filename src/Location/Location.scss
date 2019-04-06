@@ -14,6 +14,8 @@
     height: calc(80vw / 1.7);
     max-width: 960px;
     max-height: 540px;
+    position: relative;
+    z-index: 10;
   }
   .Splash {
     position: absolute;
@@ -24,7 +26,7 @@
     right: 0;
     margin: auto;
     width: 1350px;
-    z-index: -1;
+    z-index: 1;
     transition: 0.1s;
   }
 
