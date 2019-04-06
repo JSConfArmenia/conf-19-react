@@ -10,6 +10,7 @@ import Footer from './Footer/Footer';
 import FAQ from './Faq/Faq';
 import Speakers from './Speakers/Speakers';
 import Sponsors from './Sponsors/Sponsors';
+import Jobs from './Jobs/Jobs';
 
 import './App.scss';
 
@@ -28,6 +29,7 @@ const App = () => {
       <Sponsors />
       <Team />
       <Location />
+      <Jobs />
       <FAQ />
       <Footer />
       <div
