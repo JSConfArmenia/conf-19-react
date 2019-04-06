@@ -4,42 +4,60 @@ export default {
     name: 'Jesse Martin',
     position: 'Full-stack Developer at GraphCMS',
     topic: 'Product Ready React with GatsbyJS',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/motleydev',
+      'https://twitter.com/motleydev',
+      ],
   },
   Roy_Derks: {
     img: '/speakers/Roy_Derks.jpg',
     name: 'Roy Derks',
     position: 'Serial Startup CTO, Teacher at reactjs.academy',
     topic: 'Handling Large-Scale State-Management with Context and Hooks',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/royderks',
+      'https://twitter.com/gethackteam',
+      ],
   },
   Varik_Matevosyan: {
     img: '/speakers/Varik_Matevosyan.jpg',
     name: 'Varik Matevosyan',
     position: 'CTO at Steadfast',
     topic: 'Testing React in a right way',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/var77',
+      'https://twitter.com/D4RK7ET',
+      ],
   },
   Khachatur_Virabyan: {
     img: '/speakers/Khachatur_Virabyan.jpg',
     name: 'Khachatur Virabyan',
     position: 'React Developer at Renderforest',
     topic: 'Dynamic styling systems with React',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/Khachatour',
+      'https://twitter.com/kh_mugh',
+      ],
   },
   Eugene_Zharkov: {
     img: '/speakers/Eugene_Zharkov.jpg',
     name: 'Eugene Zharkov',
     position: 'React Native Developer',
     topic: 'Monorepo: React Web & React Native',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/2j2e',
+      'https://twitter.com/2j2e',
+      ],
   },
   Leandro_Ostera: {
     img: '/speakers/Leandro_Ostera.jpg',
     name: 'Leandro Ostera',
     position: 'Senior Web Engineer at SRC',
     topic: 'A Reasonable Web',
-    socialUrls: [],
+    socialUrls: [
+      'https://github.com/ostera',
+      'https://twitter.com/leostera',
+      ],
   },
   Sara_Vieira: {
     img: '/speakers/Sara_Vieira.jpg',
