@@ -14,9 +14,4 @@ export default [
     company: 'VMware',
     url: 'https://careers.vmware.com/job/yerevan/software-engineer/1567/11255266',
   },
-  {
-    title: 'Node JS Developer',
-    company: 'Renderforest',
-    url: 'https://google.com',
-  },
 ];
