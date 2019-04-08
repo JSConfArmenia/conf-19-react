@@ -81,6 +81,14 @@ class Header extends Component {
               src="/logo.png"
               alt="React Conference 2019 Logo"
             />
+            <Link
+             to="Intro"
+             smooth="true"
+             spy={true}
+             offset={-100}
+             className="Link"
+             onClick={() => this.close()}
+            >
           </div>
 
           <Button
