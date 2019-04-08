@@ -146,6 +146,16 @@ class Header extends Component {
               Location
             </Link>
             <Link
+              to="Jobs"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+              onClick={() => this.close()}
+            >
+              Jobs
+            </Link>
+            <Link
               to="FAQ"
               smooth="true"
               spy={true}
