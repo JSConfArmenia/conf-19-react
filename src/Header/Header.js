@@ -60,11 +60,14 @@ class Header extends Component {
   close(currentLink) {
     this.setState({
       isOpen: false,
-    }, () => {
-      setTimeout(() => {
-        window.location.hash = currentLink;
-      }, 0);
     });
+    setTimeout(() => {
+      if (window.history.pushState) {
+        window.history.pushState(null, null, `#${currentLink}`);
+      } else {
+        window.location.hash = currentLink;
+      }
+    }, 300);
   }
 
   render() {
