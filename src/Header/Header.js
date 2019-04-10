@@ -57,9 +57,13 @@ class Header extends Component {
     });
   }
 
-  close() {
+  close(currentLink) {
     this.setState({
       isOpen: false,
+    }, () => {
+      setTimeout(() => {
+        window.location.hash = currentLink;
+      }, 0);
     });
   }
 
@@ -76,11 +80,20 @@ class Header extends Component {
       <header className={`Header${headerClasses}`}>
         <div className="container">
           <div className="Logo">
-            <img
-              className="LogoImg"
-              src="/logo.png"
-              alt="React Conference 2019 Logo"
-            />
+            <Link
+              to="Intro"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+              onClick={() => this.close('intro')}
+            >
+              <img
+                className="LogoImg"
+                src="/logo.png"
+                alt="React Conference 2019 Logo"
+              />
+            </Link>
           </div>
 
           <Button
@@ -99,7 +112,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('about')}
             >
               About
             </Link>
@@ -111,7 +124,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('speakers')}
             >
               Speakers
             </Link>
@@ -121,7 +134,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('sponsors')}
             >
               Sponsors
             </Link>
@@ -131,7 +144,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('team')}
             >
               Team
             </Link>
@@ -141,7 +154,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('location')}
             >
               Location
             </Link>
@@ -151,7 +164,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('jobs')}
             >
               Jobs
             </Link>
@@ -161,7 +174,7 @@ class Header extends Component {
               spy={true}
               offset={-100}
               className="Link"
-              onClick={() => this.close()}
+              onClick={() => this.close('faq')}
             >
               FAQ
             </Link>

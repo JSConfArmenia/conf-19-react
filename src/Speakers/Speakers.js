@@ -33,7 +33,7 @@ const speakersList = [
 }));
 
 const Speakers = () => (
-  <section className="Speakers" id="Speakers">
+  <section id="speakers" className="Speakers">
     <div className="container">
       <div className="SpeakersTitleContainer">
         <Title>
