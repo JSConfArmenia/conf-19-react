@@ -4,8 +4,8 @@ import './Speakers.scss';
 import speakersSerivce from '../_services/speakers';
 
 import Title, { TitleAccent } from '../_components/Title';
-import Description from '../_components/Description';
-import Button from '../_components/Button';
+// import Description from '../_components/Description';
+// import Button from '../_components/Button';
 import SpeakerCard from './SpeakerCard';
 
 
@@ -51,7 +51,7 @@ const Speakers = () => (
           </div>
         ))}
       </div>
-      <div className="row SpeakersApplicationContainer">
+      {/* <div className="row SpeakersApplicationContainer">
         <div className="col-lg-6 order-lg-2">
           <div className="SectionBox">
             <Title>
@@ -76,7 +76,7 @@ const Speakers = () => (
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   </section>
 );
