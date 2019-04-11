@@ -6,7 +6,7 @@ import Description from '../_components/Description';
 import './About.scss';
 
 const About = () => (
-  <section id="About" className="About">
+  <section id="about" className="About">
     <div className="container">
       <div className="row">
         <div className="col-lg-6">

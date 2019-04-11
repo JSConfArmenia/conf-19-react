@@ -17,7 +17,7 @@ const Jobs = () => {
   ));
 
   return (
-    <section id="Jobs" className="Jobs">
+    <section id="jobs" className="Jobs">
       <div className="w-100">
         <div className="w-100 BigTitle">
           <Title>

@@ -6,7 +6,7 @@ import { TitleAccent, Title } from '../_components';
 import './Faq.css';
 
 export default () => (
-  <div id="FAQ" className="FAQ">
+  <div id="faq" className="FAQ">
     <div className="container">
       <div className="row">
         <div className="col-md-12">
