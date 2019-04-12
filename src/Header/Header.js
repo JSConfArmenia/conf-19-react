@@ -172,6 +172,16 @@ class Header extends Component {
               Jobs
             </Link>
             <Link
+              to="Conduct"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+              onClick={() => this.close('conduct')}
+            >
+              Conduct
+            </Link>
+            <Link
               to="FAQ"
               smooth="true"
               spy={true}
