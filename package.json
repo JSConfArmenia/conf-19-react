@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rehooks/window-scroll-position": "github:rehooks/window-scroll-position",
     "bootstrap": "^4.2.1",
     "google-map-react": "^1.1.2",
     "node-sass": "^4.11.0",
