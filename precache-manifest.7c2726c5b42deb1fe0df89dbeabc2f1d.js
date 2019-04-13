@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3af18e065f0022f6732314228e096f76",
-    "url": "/static/media/AktivGrotesk-ThinItalic.3af18e06.eot"
+    "revision": "cc9101bd6f05111250ad27c0b9ea49b1",
+    "url": "/static/media/AktivGrotesk-XBoldItalic.cc9101bd.ttf"
   },
   {
-    "revision": "d76b1c42a1be164c7305",
-    "url": "/static/css/main.5804f112.chunk.css"
+    "revision": "70251a14cabf67bbf770",
+    "url": "/static/css/main.c29f4a8e.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BoldItalic.9466c4dc.svg"
   },
   {
-    "revision": "b3d34ad2eee3a6324c0f",
-    "url": "/static/js/2.b3d34ad2.chunk.js"
+    "revision": "c02bb050407d7bdd63cb",
+    "url": "/static/js/2.c02bb050.chunk.js"
   },
   {
     "revision": "526dc2c5281ec46912421dcca2ef2146",
@@ -168,12 +168,12 @@ self.__precacheManifest = [
     "url": "/static/media/Rajdhani-Regular.fd76eb0d.woff"
   },
   {
-    "revision": "5f104ea868757cb9f0973e889b8c49fd",
-    "url": "/static/media/Rajdhani-Bold.5f104ea8.woff"
-  },
-  {
     "revision": "c5ba150f4df7c406f36239bb57544ca5",
     "url": "/static/media/Rajdhani-Medium.c5ba150f.woff"
+  },
+  {
+    "revision": "5f104ea868757cb9f0973e889b8c49fd",
+    "url": "/static/media/Rajdhani-Bold.5f104ea8.woff"
   },
   {
     "revision": "1bd53389311be0fbd6c9c08a85bd3bd8",
@@ -208,12 +208,12 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-XBoldItalic.544b2013.eot"
   },
   {
-    "revision": "cc9101bd6f05111250ad27c0b9ea49b1",
-    "url": "/static/media/AktivGrotesk-XBoldItalic.cc9101bd.ttf"
+    "revision": "3af18e065f0022f6732314228e096f76",
+    "url": "/static/media/AktivGrotesk-ThinItalic.3af18e06.eot"
   },
   {
-    "revision": "d76b1c42a1be164c7305",
-    "url": "/static/js/main.d76b1c42.chunk.js"
+    "revision": "70251a14cabf67bbf770",
+    "url": "/static/js/main.70251a14.chunk.js"
   },
   {
     "revision": "bb65147b09cc33cfee53862af2bfed93",
@@ -416,11 +416,11 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-LightItalic.38268293.svg"
   },
   {
-    "revision": "b3d34ad2eee3a6324c0f",
+    "revision": "c02bb050407d7bdd63cb",
     "url": "/static/css/2.a6f898be.chunk.css"
   },
   {
-    "revision": "cd81f15ae5165a6f630b120bcc73bae8",
+    "revision": "92b455ce34f90a9371235280d1cb2f15",
     "url": "/index.html"
   }
 ];
