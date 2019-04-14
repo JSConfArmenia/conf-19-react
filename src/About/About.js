@@ -29,6 +29,8 @@ const About = () => (
               <a
                 className="CodeOfConductLink"
                 href="https://github.com/JSConfArmenia/conf-19-react/blob/master/CODE_OF_CONDUCT.md"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span role="img" aria-label="code of conduct">❕</span>
                 {' '}

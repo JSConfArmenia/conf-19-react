@@ -30,6 +30,8 @@ export default () => (
             required to agree with the following{' '}
             <a
               href="https://github.com/JSConfArmenia/conf-19-react/blob/master/CODE_OF_CONDUCT.md"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               code of conduct
             </a>.
