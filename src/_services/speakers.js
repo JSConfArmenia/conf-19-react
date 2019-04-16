@@ -87,7 +87,7 @@ export default {
     img: '/speakers/Lilit_Tadevosyan.jpg',
     name: 'Lilit Tadevosyan',
     position: 'Lead JavaScript developer at SFL',
-    topic: 'Server-Side Rendering with React',
+    topic: 'Server-Side Rendering with React: Win or Lose',
   },
   Rebecca_Hill: {
     img: '/speakers/Rebecca_Hill.jpg',
