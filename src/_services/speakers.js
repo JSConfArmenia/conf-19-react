@@ -101,4 +101,10 @@ export default {
     position: 'Full-Stack Developer at Teamable',
     topic: 'Testing React Ecosystem: Do\'s and Don\'ts',
   },
+  Dan_Abramov: {
+    img: '/speakers/Dan_Abramov.jpg',
+    name: 'Dan Abramov',
+    position: 'Working on React.js, Co-author of Redux and Create React App',
+    topic: 'Q&A Session',
+  },
 };
