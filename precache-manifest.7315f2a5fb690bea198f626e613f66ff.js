@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6f7697d7baca17bd16c3",
-    "url": "/static/css/main.5e06e1dd.chunk.css"
+    "revision": "245a916451a5a94912ca",
+    "url": "/static/css/main.16c919a7.chunk.css"
   },
   {
-    "revision": "6f7697d7baca17bd16c3",
-    "url": "/static/js/main.6f7697d7.chunk.js"
+    "revision": "245a916451a5a94912ca",
+    "url": "/static/js/main.245a9164.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BoldItalic.9466c4dc.svg"
   },
   {
-    "revision": "fd1e07e1ac5cfadb55f64b7d30b615ba",
+    "revision": "49c531ad61d76dc97df9e361ea25a98a",
     "url": "/index.html"
   }
 ];
