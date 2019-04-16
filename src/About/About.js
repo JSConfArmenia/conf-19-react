@@ -24,6 +24,18 @@ const About = () => (
               developers in one place to share
               knowledge, skills, to network, and
               just to have fun.
+              <br />
+              <br />
+              <a
+                className="CodeOfConductLink"
+                href="https://github.com/JSConfArmenia/conf-19-react/blob/master/CODE_OF_CONDUCT.md"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span role="img" aria-label="code of conduct">❕</span>
+                {' '}
+                code of conduct
+              </a>
             </Description>
           </div>
         </div>
