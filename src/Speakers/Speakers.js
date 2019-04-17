@@ -12,6 +12,7 @@ import SpeakerCard from './SpeakerCard';
 const speakersList = [
   'Roy_Derks',
   'Sara_Vieira',
+  'Dan_Abramov',
   'Narendra_Shetty',
   'Denys_Radin',
   'Cristian_Oliveira_da_Rosa',
