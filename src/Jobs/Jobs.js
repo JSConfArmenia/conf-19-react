@@ -17,15 +17,13 @@ const Jobs = () => {
   ));
 
   return (
-    <section id="Jobs" className="Jobs">
+    <section id="jobs" className="Jobs">
       <div className="w-100">
         <div className="w-100 BigTitle">
           <Title>
-            Jobs
+            JS/React
             {' - '}
-            <TitleAccent color="primary1">Steve</TitleAccent>
-            {' '}
-            Jobs
+            <TitleAccent color="primary1">Jobs</TitleAccent>
           </Title>
         </div>
         <div className="container">

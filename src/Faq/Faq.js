@@ -6,7 +6,7 @@ import { TitleAccent, Title } from '../_components';
 import './Faq.css';
 
 export default () => (
-  <div id="FAQ" className="FAQ">
+  <div id="faq" className="FAQ">
     <div className="container">
       <div className="row">
         <div className="col-md-12">
@@ -23,6 +23,18 @@ export default () => (
             React Conf is to bring together Armenian React developers to
             attend talks, workshops, participate in competitions, get informed
             about open positions at sponsor IT companies and just have fun.
+          </p>
+          <h3>What is the conference code of conduct?</h3>
+          <p>
+            All attendees, speakers, sponsors and volunteers at our conference are
+            required to agree with the following{' '}
+            <a
+              href="https://github.com/JSConfArmenia/conf-19-react/blob/master/CODE_OF_CONDUCT.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              code of conduct
+            </a>.
           </p>
           <h3>Who are the speakers?</h3>
           <p>
@@ -50,13 +62,13 @@ export default () => (
           <p>The conference will take place from 10:00 to 17:30 on May 25, 2019.</p>
           <h3>Where is it going to be held?</h3>
           <p>React Conf Armenia will be held at Russian-Armenian University (Hovsep Emin 123).</p>
+        </div>
+        <div className="col-md-6">
           <h3>How to participate?</h3>
           <p>
             The entry of React Conf 2018 is invitation-only so please make sure to request
             your invite <a href="http://bit.ly/joinReactConfAM">here</a>.
           </p>
-        </div>
-        <div className="col-md-6">
           <h3>How much is the entry-ticket?</h3>
           <p>The event entry is free of charge.</p>
           <h3>When is the deadline for registration?</h3>

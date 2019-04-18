@@ -1,0 +1,16 @@
+.BackgroundIllustration {
+  // background: red;
+  position: absolute;
+  top: 100vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-image: url('/background-pattern.png');
+  background-position-x: center;
+  background-size: 95%;
+  background-repeat: repeat-y;
+  opacity: .4;
+
+  transform: translateY(0);
+}

@@ -6,7 +6,7 @@ import Description from '../_components/Description';
 import './Sponsors.scss';
 
 const Sponsors = () => (
-  <div className="Sponsors" id="Sponsors">
+  <div id="sponsors" className="Sponsors">
     <div className="container">
       <div className="row">
         <div className="col-lg-6">

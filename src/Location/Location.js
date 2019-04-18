@@ -25,7 +25,7 @@ const Marker = () => (
 );
 
 export default () => (
-  <section className="Location">
+  <section id="location" className="Location">
     <Title>
       <TitleAccent color="hero">Location</TitleAccent>
     </Title>

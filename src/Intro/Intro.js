@@ -3,7 +3,7 @@ import React from 'react';
 import './Intro.scss';
 
 const Intro = () => (
-  <section className="Intro">
+  <section id="intro" className="Intro">
     <div className="IntroContainer">
       <div className="Info">
         <p>Russian-Armenian University</p>
