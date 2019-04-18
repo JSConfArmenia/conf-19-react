@@ -6,7 +6,8 @@ export default {
     topic: 'Product Ready React with GatsbyJS',
     socialUrls: [
       'https://github.com/motleydev',
-      'https://twitter.com/motleydev'],
+      'https://twitter.com/motleydev',
+    ],
   },
   Roy_Derks: {
     img: '/speakers/Roy_Derks.jpg',
@@ -15,7 +16,8 @@ export default {
     topic: 'Handling Large-Scale State-Management with Context and Hooks',
     socialUrls: [
       'https://github.com/royderks',
-      'https://twitter.com/gethackteam'],
+      'https://twitter.com/gethackteam',
+    ],
   },
   Varik_Matevosyan: {
     img: '/speakers/Varik_Matevosyan.jpg',
@@ -24,7 +26,8 @@ export default {
     topic: 'Testing React in a right way',
     socialUrls: [
       'https://github.com/var77',
-      'https://twitter.com/D4RK7ET'],
+      'https://twitter.com/D4RK7ET',
+    ],
   },
   Khachatur_Virabyan: {
     img: '/speakers/Khachatur_Virabyan.jpg',
@@ -33,7 +36,8 @@ export default {
     topic: 'Dynamic styling systems with React',
     socialUrls: [
       'https://github.com/Khachatour',
-      'https://twitter.com/kh_mugh'],
+      'https://twitter.com/kh_mugh',
+    ],
   },
   Eugene_Zharkov: {
     img: '/speakers/Eugene_Zharkov.jpg',
@@ -42,7 +46,8 @@ export default {
     topic: 'Monorepo: React Web & React Native',
     socialUrls: [
       'https://github.com/2j2e',
-      'https://twitter.com/2j2e'],
+      'https://twitter.com/2j2e',
+    ],
   },
   Leandro_Ostera: {
     img: '/speakers/Leandro_Ostera.jpg',
@@ -51,7 +56,8 @@ export default {
     topic: 'A Reasonable Web',
     socialUrls: [
       'https://github.com/ostera',
-      'https://twitter.com/leostera'],
+      'https://twitter.com/leostera',
+    ],
   },
   Sara_Vieira: {
     img: '/speakers/Sara_Vieira.jpg',
@@ -60,7 +66,8 @@ export default {
     topic: 'Let’s manage our local state with GraphQL',
     socialUrls: [
       'https://github.com/SaraVieira',
-      'https://twitter.com/NikkitaFTW'],
+      'https://twitter.com/NikkitaFTW',
+    ],
   },
   Denys_Radin: {
     img: '/speakers/Denys_Radin.jpg',
@@ -69,7 +76,8 @@ export default {
     topic: 'Photorealistic 3D graphics on the Web with ReactJS, WebGL and Unity3D',
     socialUrls: [
       'https://github.com/PixelsCommander',
-      'https://twitter.com/PixelsCommander'],
+      'https://twitter.com/PixelsCommander',
+    ],
   },
   Gagik_Arustamyan: {
     img: '/speakers/Gagik_Arustamyan.jpg',
@@ -77,7 +85,8 @@ export default {
     position: 'Head of Front-end/JavaScript development at SFL',
     topic: 'From design systems to component libraries',
     socialUrls: [
-      'https://github.com/arrustamyan'],
+      'https://github.com/arrustamyan',
+    ],
   },
   Radoslaw_Malecki: {
     img: '/speakers/Radoslaw_Malecki.jpg',
@@ -86,7 +95,8 @@ export default {
     topic: 'Let\'s make a photo booth in React!',
     socialUrls: [
       'https://github.com/radosny',
-      'https://twitter.com/radoslawmalecki'],
+      'https://twitter.com/radoslawmalecki',
+    ],
   },
   Narendra_Shetty: {
     img: '/speakers/Narendra_Shetty.jpg',
@@ -95,7 +105,8 @@ export default {
     topic: 'Turning an Application UI into an API',
     socialUrls: [
       'https://github.com/narendrashetty',
-      'https://twitter.com/narendra_shetty'],
+      'https://twitter.com/narendra_shetty',
+    ],
   },
   Miłosz_Piechocki: {
     img: '/speakers/Miłosz_Piechocki.jpg',
@@ -104,7 +115,8 @@ export default {
     topic: 'Make your React code bulletproof with some TypeScript wizardry',
     socialUrls: [
       'https://github.com/miloszpp',
-      'https://twitter.com/miloszpp'],
+      'https://twitter.com/miloszpp',
+    ],
   },
   Cristian_Oliveira_da_Rosa: {
     img: '/speakers/Cristian_Oliveira_da_Rosa.jpg',
@@ -113,7 +125,8 @@ export default {
     topic: 'React to the need for speed',
     socialUrls: [
       'https://github.com/cristianoliveira',
-      'https://twitter.com/cristian_or_'],
+      'https://twitter.com/cristian_or_',
+    ],
   },
   Elizabet_Oliveira: {
     img: '/speakers/Elizabet_Oliveira.jpg',
@@ -122,7 +135,8 @@ export default {
     topic: 'An SVG’s Tale',
     socialUrls: [
       'https://github.com/miukimiu',
-      'https://twitter.com/miuki_miu'],
+      'https://twitter.com/miuki_miu',
+    ],
   },
   Lilit_Tadevosyan: {
     img: '/speakers/Lilit_Tadevosyan.jpg',
@@ -130,7 +144,8 @@ export default {
     position: 'Lead JavaScript developer at SFL',
     topic: 'N/A',
     socialUrls: [
-      'https://github.com/lilittad'],
+      'https://github.com/lilittad',
+    ],
   },
   Rebecca_Hill: {
     img: '/speakers/Rebecca_Hill.jpg',
@@ -139,7 +154,8 @@ export default {
     topic: 'Structuring your app\'s business logic',
     socialUrls: [
       'https://github.com/beerecca',
-      'https://twitter.com/rebekaka'],
+      'https://twitter.com/rebekaka',
+    ],
   },
   Taguhi_Asatryan: {
     img: '/speakers/Taguhi_Asatryan.jpg',
@@ -147,6 +163,7 @@ export default {
     position: 'Full-Stack Developer at Teamable',
     topic: 'Testing React Ecosystem: Do\'s and Don\'ts',
     socialUrls: [
-      'https://github.com/Taguhi'],
+      'https://github.com/Taguhi',
+    ],
   },
 };
