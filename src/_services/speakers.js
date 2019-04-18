@@ -142,7 +142,7 @@ export default {
     img: '/speakers/Lilit_Tadevosyan.jpg',
     name: 'Lilit Tadevosyan',
     position: 'Lead JavaScript developer at SFL',
-    topic: 'N/A',
+    topic: 'Server-Side Rendering with React: Win or Lose',
     socialUrls: [
       'https://github.com/lilittad',
     ],
@@ -164,6 +164,16 @@ export default {
     topic: 'Testing React Ecosystem: Do\'s and Don\'ts',
     socialUrls: [
       'https://github.com/Taguhi',
+    ],
+  },
+  Dan_Abramov: {
+    img: '/speakers/Dan_Abramov.jpg',
+    name: 'Dan Abramov',
+    position: 'Working on React.js, Co-author of Redux and Create React App',
+    topic: 'Q&A Session',
+    socialUrls: [
+      'https://github.com/gaearon',
+      'https://twitter.com/dan_abramov',
     ],
   },
 };
