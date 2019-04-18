@@ -167,7 +167,7 @@ export default {
     ],
   },
   Dan_Abramov: {
-    img: '/speakers/Dan_Abramov.jpg',
+    img: '/speakers/Dan_Abramov.png',
     name: 'Dan Abramov',
     position: 'Working on React.js, Co-author of Redux and Create React App',
     topic: 'Q&A Session',
