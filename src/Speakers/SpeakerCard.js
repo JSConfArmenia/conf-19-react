@@ -2,12 +2,14 @@ import React from 'react';
 
 import './SpeakerCard.scss';
 import Title from '../_components/Title';
+import SpeakerSocialLink from './SpeakerSocialLink';
 
 const SpeakerCard = ({
   img,
   name,
   topic,
   position,
+  socialUrls,
 }) => (
   <div className="SpeakerCard">
     <div className="SpeakerImgContainer">
@@ -24,6 +26,11 @@ const SpeakerCard = ({
       </div>
       <div className="SpeakerTopic">
         {topic}
+      </div>
+      <div className="SpeakerSocialLinks">
+        {socialUrls.map(url => (
+          <SpeakerSocialLink url={url} />
+        ))}
       </div>
     </div>
   </div>
