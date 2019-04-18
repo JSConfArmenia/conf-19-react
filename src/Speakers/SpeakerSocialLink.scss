@@ -1,0 +1,28 @@
+.SpeakerSocialLink {
+  display: block;
+  margin-right: 15px;
+
+  .SpeakerSocialLinkIcon {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &.-github .SpeakerSocialLinkIcon {
+    background-image: url(/social-icons/GitHub.png);
+  }
+
+  &.-github:hover .SpeakerSocialLinkIcon {
+    background-image: url(/social-icons/GitHub-hover.png);
+  }
+
+  &.-twitter .SpeakerSocialLinkIcon {
+    background-image: url(/social-icons/Twitter.png);
+  }
+
+  &.-twitter:hover .SpeakerSocialLinkIcon {
+    background-image: url(/social-icons/Twitter-hover.png);
+  }
+}
