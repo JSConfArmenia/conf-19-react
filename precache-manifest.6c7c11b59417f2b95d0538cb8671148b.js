@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7edce1ac6b0697c2c36b",
+    "revision": "9b1fef6e49d4ff12a59f",
     "url": "/static/css/main.16245a59.chunk.css"
   },
   {
-    "revision": "7edce1ac6b0697c2c36b",
-    "url": "/static/js/main.7edce1ac.chunk.js"
+    "revision": "9b1fef6e49d4ff12a59f",
+    "url": "/static/js/main.9b1fef6e.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -288,16 +288,16 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-Regular.79b123d5.eot"
   },
   {
-    "revision": "b44bcadd1b3b767dea406dae432bf909",
-    "url": "/static/media/AktivGrotesk-Regular.b44bcadd.ttf"
-  },
-  {
     "revision": "f4aa488011c7a26f2054ead19151343e",
     "url": "/static/media/AktivGrotesk-LightItalic.f4aa4880.eot"
   },
   {
     "revision": "11f45dcae4c900a798989cf0d848deb9",
     "url": "/static/media/AktivGrotesk-LightItalic.11f45dca.ttf"
+  },
+  {
+    "revision": "b44bcadd1b3b767dea406dae432bf909",
+    "url": "/static/media/AktivGrotesk-Regular.b44bcadd.ttf"
   },
   {
     "revision": "237266a15fd03299873d6cbaf99325b2",
@@ -320,12 +320,12 @@ self.__precacheManifest = [
     "url": "/static/media/Rajdhani-Light.5e8a4ac2.eot"
   },
   {
-    "revision": "35ba2fa4455863fafc6bc2484b665a4c",
-    "url": "/static/media/Rajdhani-Light.35ba2fa4.ttf"
-  },
-  {
     "revision": "961af6f1313d7699f45367b46df8c061",
     "url": "/static/media/Rajdhani-Bold.961af6f1.eot"
+  },
+  {
+    "revision": "35ba2fa4455863fafc6bc2484b665a4c",
+    "url": "/static/media/Rajdhani-Light.35ba2fa4.ttf"
   },
   {
     "revision": "9d93e3b7d1d55c514b4b4386926ef80a",
@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BoldItalic.9466c4dc.svg"
   },
   {
-    "revision": "185057e0b94aaba256b9b90a30bd1aff",
+    "revision": "f10b0d7c815364971e7e45cf745a2be9",
     "url": "/index.html"
   }
 ];
