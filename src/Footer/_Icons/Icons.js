@@ -12,12 +12,12 @@ export default [
     component: <Github />,
   },
   {
-    url: 'https://www.facebook.com/jsconf.am/',
+    url: 'https://www.facebook.com/reactconf.am/',
     key: 'facebook',
     component: <Facebook />,
   },
   {
-    url: 'https://twitter.com/jsconf_am/',
+    url: 'https://twitter.com/ReactConfAM',
     key: 'twitter',
     component: <Twitter />,
   },
