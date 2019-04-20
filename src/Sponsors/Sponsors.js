@@ -5,6 +5,26 @@ import Description from '../_components/Description';
 
 import './Sponsors.scss';
 
+const sponsorImages = {
+  Gold: ['Digitain', 'VMware', 'Service_Titan'],
+  Silver: ['Vineti_vertical', 'WorkFront'],
+  PartnersFriends: ['RAU'],
+};
+
+const SponsorsLogoList = type => (
+  <ul className="List SponsorsLogoList">
+    {
+      sponsorImages[type].map(sponsorName => (
+        <img
+          src={`./sponsors/${type}/${sponsorName}.png`}
+          alt={sponsorName}
+          className={`${type}Sponsors`}
+        />
+      ))
+    }
+  </ul>
+);
+
 const Sponsors = () => (
   <div id="sponsors" className="Sponsors">
     <div className="container">
@@ -38,6 +58,18 @@ const Sponsors = () => (
             />
           </div>
         </div>
+      </div>
+      <div className="SponsorsTitleContainer">
+        <Title>
+          React
+          <TitleAccent color="primary1"> Sponsors</TitleAccent>
+        </Title>
+        <Description>Gold Sponsors</Description>
+        { SponsorsLogoList('Gold') }
+        <Description>Silver Sponsors</Description>
+        { SponsorsLogoList('Silver') }
+        <Description>Partners & Friends</Description>
+        { SponsorsLogoList('PartnersFriends') }
       </div>
     </div>
   </div>
