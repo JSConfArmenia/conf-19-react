@@ -6,7 +6,7 @@ import Description from '../_components/Description';
 import './Sponsors.scss';
 
 const sponsorImages = {
-  Gold: ['Digitain', 'VMware', 'Service_Titan'],
+  Gold: ['Digitain', 'Service_Titan', 'VMware'],
   Silver: ['Vineti_vertical', 'WorkFront'],
   PartnersFriends: ['RAU'],
 };
