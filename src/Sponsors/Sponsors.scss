@@ -17,6 +17,29 @@
     width: 75%;
   }
 
+  .SponsorsLogoList {
+    margin: 40px 0 40px 0;
+
+    img {
+      margin: 20px;
+      vertical-align: middle;
+    }
+
+    .GoldSponsors img {
+      width: 300px;
+      height: 180px;
+    }
+  
+    .SilverSponsors img {
+      width: 240px;
+      height: 140px;
+    }
+  }
+
+  .SponsorsTitleContainer {
+    text-align: center;
+  }
+
   @include media-down(md) {
     .Illustration {
       width: 50%;
