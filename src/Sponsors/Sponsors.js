@@ -8,7 +8,7 @@ import './Sponsors.scss';
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
   Silver: ['Vineti_vertical', 'WorkFront'],
-  PartnersFriends: ['RAU'],
+  PartnersFriends: ['RAU', 'StickerMule'],
 };
 
 const SponsorsLogoList = type => (
