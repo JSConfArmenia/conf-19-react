@@ -7,11 +7,13 @@ import './Sponsors.scss';
 
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['Vineti_vertical', 'WorkFront'],
+  Silver: ['Vineti_vertical', 'WorkFront', 'simply', 'renderforest'],
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
 const sponsorsUrls = {
+  simply: 'https://www.simplytechnologies.net/',
+  renderforest: 'https://www.renderforest.com/',
   StickerMule: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
 };
 
