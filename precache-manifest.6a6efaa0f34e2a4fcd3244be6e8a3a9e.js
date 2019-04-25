@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-ThinItalic.3af18e06.eot"
   },
   {
-    "revision": "2da6d9e3dd11aa4264b2",
+    "revision": "927f34da469703a21896",
     "url": "/static/css/main.541c3673.chunk.css"
   },
   {
@@ -80,12 +80,12 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BlackItalic.80fdfb68.woff"
   },
   {
-    "revision": "0c397df147cd233595d5453ccce3e6d7",
-    "url": "/static/media/AktivGrotesk-XBold.0c397df1.woff"
-  },
-  {
     "revision": "b39b04a5590f91f015082eaf4d594129",
     "url": "/static/media/AktivGrotesk-Thin.b39b04a5.woff"
+  },
+  {
+    "revision": "0c397df147cd233595d5453ccce3e6d7",
+    "url": "/static/media/AktivGrotesk-XBold.0c397df1.woff"
   },
   {
     "revision": "879c841e9128137f056cf659f5ed6606",
@@ -212,8 +212,8 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-XBoldItalic.cc9101bd.ttf"
   },
   {
-    "revision": "2da6d9e3dd11aa4264b2",
-    "url": "/static/js/main.2da6d9e3.chunk.js"
+    "revision": "927f34da469703a21896",
+    "url": "/static/js/main.927f34da.chunk.js"
   },
   {
     "revision": "bb65147b09cc33cfee53862af2bfed93",
@@ -240,12 +240,12 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-Bold.b227d5c7.eot"
   },
   {
-    "revision": "05ce968bf631cd51cb0721de7708da00",
-    "url": "/static/media/AktivGrotesk-Bold.05ce968b.ttf"
-  },
-  {
     "revision": "edb59894f48cbc6029a394332f5f8b1b",
     "url": "/static/media/AktivGrotesk-MediumItalic.edb59894.eot"
+  },
+  {
+    "revision": "05ce968bf631cd51cb0721de7708da00",
+    "url": "/static/media/AktivGrotesk-Bold.05ce968b.ttf"
   },
   {
     "revision": "b7d8694514e1a931ce7566a89bd1d529",
@@ -272,12 +272,12 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-Medium.0c6739b9.eot"
   },
   {
-    "revision": "6c9138fa192ad4391c0c8878be594841",
-    "url": "/static/media/AktivGrotesk-Medium.6c9138fa.ttf"
-  },
-  {
     "revision": "3329cae957b6aa2b353232418fff6813",
     "url": "/static/media/AktivGrotesk-Light.3329cae9.eot"
+  },
+  {
+    "revision": "6c9138fa192ad4391c0c8878be594841",
+    "url": "/static/media/AktivGrotesk-Medium.6c9138fa.ttf"
   },
   {
     "revision": "6a0d5a4cf8046dfd1ee54c84d9c301f0",
@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.a6f898be.chunk.css"
   },
   {
-    "revision": "c66c22104a60771e5dc70e3bd3cf5077",
+    "revision": "502f31b1240b31aee7051209b8321a2f",
     "url": "/index.html"
   }
 ];
