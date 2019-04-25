@@ -11,16 +11,32 @@ const sponsorImages = {
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
+const sponsorsUrls = {
+  StickerMule: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
+};
+
+// please don't kill me for this code :D
+// TODO :: improve
 const SponsorsLogoList = type => (
   <ul className="List SponsorsLogoList">
     {
-      sponsorImages[type].map(sponsorName => (
-        <img
-          src={`./sponsors/${type}/${sponsorName}.png`}
-          alt={sponsorName}
-          className={`${type}Sponsors`}
-        />
-      ))
+      sponsorImages[type].map((sponsorName) => {
+        const image = (
+          <img
+            src={`./sponsors/${type}/${sponsorName}.png`}
+            alt={sponsorName}
+            className={`${type}Sponsors`}
+          />
+        );
+        if (sponsorsUrls[sponsorName]) {
+          return (
+            <a href={sponsorsUrls[sponsorName]} target="_blank" rel="noopener noreferrer">
+              {image}
+            </a>
+          );
+        }
+        return image;
+      })
     }
   </ul>
 );
