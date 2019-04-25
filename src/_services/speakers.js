@@ -72,7 +72,7 @@ export default {
   Denys_Radin: {
     img: '/speakers/Denys_Radin.jpg',
     name: 'Denys Radin',
-    position: 'Author of HTML-GL, ReactiveElements, JavaScript/WebGL engineer at Evolution Gaming',
+    position: 'Author of HTML-GL, ReactiveElements, JavaScript/WebGL engineer at Focus Reactive',
     topic: 'Photorealistic 3D graphics on the Web with ReactJS, WebGL and Unity3D',
     socialUrls: [
       'https://github.com/PixelsCommander',
