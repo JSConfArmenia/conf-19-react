@@ -23,8 +23,13 @@
     img {
       margin: 20px;
       vertical-align: middle;
+      opacity: 0.8;
     }
-
+    
+    img:hover { 
+      opacity: 1;
+    }
+    
     .GoldSponsors img {
       width: 300px;
       height: 180px;
