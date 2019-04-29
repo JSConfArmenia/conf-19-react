@@ -7,7 +7,7 @@ import './Sponsors.scss';
 
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['Vineti_vertical', 'WorkFront', 'simply', 'renderforest', 'BetConstruct'],
+  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest', 'BetConstruct'],
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
@@ -33,9 +33,9 @@ const SponsorsLogoList = type => (
       sponsorImages[type].map((sponsorName) => {
         const image = (
           <img
+            className="SponsorImage"
             src={`./sponsors/${type}/${sponsorName}.png`}
             alt={sponsorName}
-            className={`${type}Sponsors`}
           />
         );
         if (sponsorsUrls[sponsorName]) {
