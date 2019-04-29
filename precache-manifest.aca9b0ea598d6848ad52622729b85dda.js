@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-ThinItalic.3af18e06.eot"
   },
   {
-    "revision": "5a1bc9ea22e70c252271",
-    "url": "/static/css/main.e8a368b2.chunk.css"
+    "revision": "806e653e29010c3f1f7b",
+    "url": "/static/css/main.71c6f83a.chunk.css"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -164,12 +164,12 @@ self.__precacheManifest = [
     "url": "/static/media/Rajdhani-Light.93df4bb2.woff"
   },
   {
-    "revision": "fd76eb0d4b51a252b5ae5bc763401992",
-    "url": "/static/media/Rajdhani-Regular.fd76eb0d.woff"
-  },
-  {
     "revision": "5f104ea868757cb9f0973e889b8c49fd",
     "url": "/static/media/Rajdhani-Bold.5f104ea8.woff"
+  },
+  {
+    "revision": "fd76eb0d4b51a252b5ae5bc763401992",
+    "url": "/static/media/Rajdhani-Regular.fd76eb0d.woff"
   },
   {
     "revision": "c5ba150f4df7c406f36239bb57544ca5",
@@ -212,8 +212,8 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-XBoldItalic.cc9101bd.ttf"
   },
   {
-    "revision": "5a1bc9ea22e70c252271",
-    "url": "/static/js/main.5a1bc9ea.chunk.js"
+    "revision": "806e653e29010c3f1f7b",
+    "url": "/static/js/main.806e653e.chunk.js"
   },
   {
     "revision": "bb65147b09cc33cfee53862af2bfed93",
@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.a6f898be.chunk.css"
   },
   {
-    "revision": "9cee526dfec94f65e96a3a45c5037b33",
+    "revision": "ab3110f80aa07e5965caf289280e69a1",
     "url": "/index.html"
   }
 ];
