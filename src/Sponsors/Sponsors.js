@@ -7,7 +7,7 @@ import './Sponsors.scss';
 
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'King_mampreh_logo', 'renderforest'],
+  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest', 'King_mampreh_logo'],
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
@@ -19,6 +19,7 @@ const sponsorsUrls = {
   Service_Titan: 'https://www.servicetitan.com/',
   VMware: 'https://www.vmware.com/',
   Vineti_vertical: 'https://vineti.com/',
+  King_mampreh_logo: 'https://www.facebook.com/kingmampreh/',
   WorkFront: 'https://www.workfront.com/',
   BetConstruct: 'https://www.betconstruct.com/',
   RAU: 'http://www.rau.am/rus',
@@ -27,6 +28,7 @@ const sponsorsUrls = {
 // please don't kill me for this code :D
 // TODO :: improve
 // Ներում ենք ;)
+// OMG, who wrote this?!!! :D
 const SponsorsLogoList = type => (
   <ul className="List SponsorsLogoList">
     {
@@ -40,7 +42,7 @@ const SponsorsLogoList = type => (
         );
         if (sponsorsUrls[sponsorName]) {
           return (
-            <a href={sponsorsUrls[sponsorName]} target="_blank" rel="noopener noreferrer">
+            <a href={sponsorsUrls[sponsorName]} className={sponsorName} target="_blank" rel="noopener noreferrer">
               {image}
             </a>
           );
@@ -54,6 +56,18 @@ const SponsorsLogoList = type => (
 const Sponsors = () => (
   <div id="sponsors" className="Sponsors">
     <div className="container">
+      <div className="SponsorsTitleContainer">
+        <Title>
+          React Conf
+          <TitleAccent color="primary1"> Sponsors</TitleAccent>
+        </Title>
+        <Description>Gold Sponsors</Description>
+        { SponsorsLogoList('Gold') }
+        <Description>Silver Sponsors</Description>
+        { SponsorsLogoList('Silver') }
+        <Description>Partners & Friends</Description>
+        { SponsorsLogoList('PartnersFriends') }
+      </div>
       <div className="row">
         <div className="col-lg-6">
           <div className="SectionBox">
@@ -84,18 +98,6 @@ const Sponsors = () => (
             />
           </div>
         </div>
-      </div>
-      <div className="SponsorsTitleContainer">
-        <Title>
-          React
-          <TitleAccent color="primary1"> Sponsors</TitleAccent>
-        </Title>
-        <Description>Gold Sponsors</Description>
-        { SponsorsLogoList('Gold') }
-        <Description>Silver Sponsors</Description>
-        { SponsorsLogoList('Silver') }
-        <Description>Partners & Friends</Description>
-        { SponsorsLogoList('PartnersFriends') }
       </div>
     </div>
   </div>
