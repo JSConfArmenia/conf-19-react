@@ -42,13 +42,12 @@ const SponsorsLogoList = type => (
         );
         if (sponsorsUrls[sponsorName]) {
           return (
-            <a href={sponsorsUrls[sponsorName]} rel="noopener noreferrer" >
-            <a 
-              href={sponsorsUrls[sponsorName]} 
-              className={sponsorName} 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href={sponsorsUrls[sponsorName]}
               key={sponsorName}
+              target="_blank"
+              className={sponsorName}
+              rel="noopener noreferrer"
             >
               {image}
             </a>
@@ -92,7 +91,7 @@ const Sponsors = () => (
               href="http://bit.ly/sponsorReactConf2019"
               color="orange"
             >
-            BECOME A SPONSOR
+              BECOME A SPONSOR
             </Button>
           </div>
         </div>
