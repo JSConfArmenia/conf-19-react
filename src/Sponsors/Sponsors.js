@@ -7,7 +7,7 @@ import './Sponsors.scss';
 
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest'],
+  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'king_mampreh_flat', 'renderforest'],
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
