@@ -33,5 +33,5 @@ export default [
     title: 'JS/React Trainer',
     company: 'King Mampreh',
     url: 'https://www.facebook.com/kingmampreh/photos/a.2235200686714944/2409592989275712/',
-  }
+  },
 ];

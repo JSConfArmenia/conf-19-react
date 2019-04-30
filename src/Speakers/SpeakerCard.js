@@ -29,7 +29,7 @@ const SpeakerCard = ({
       </div>
       <div className="SpeakerSocialLinks">
         {socialUrls.map(url => (
-          <SpeakerSocialLink url={url} />
+          <SpeakerSocialLink url={url} key={url} />
         ))}
       </div>
     </div>

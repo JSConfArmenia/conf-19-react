@@ -40,7 +40,7 @@ const SponsorsLogoList = type => (
         );
         if (sponsorsUrls[sponsorName]) {
           return (
-            <a href={sponsorsUrls[sponsorName]} target="_blank" rel="noopener noreferrer">
+            <a href={sponsorsUrls[sponsorName]} target="_blank" rel="noopener noreferrer" key={sponsorName}>
               {image}
             </a>
           );
