@@ -24,7 +24,7 @@ const sponsorsUrls = {
   BetConstruct: 'https://www.betconstruct.com/',
   RAU: 'http://www.rau.am/rus',
   flux: 'https://fluxtech.me/',
-  Steadfast: 'https://steadfast.tech/'
+  Steadfast: 'https://steadfast.tech/',
 };
 
 // please don't kill me for this code :D
