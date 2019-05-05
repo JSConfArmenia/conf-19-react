@@ -6,9 +6,9 @@ import Description from '../_components/Description';
 import './Sponsors.scss';
 
 const sponsorImages = {
-  Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest', 'flux', 'Steadfast', 'King_mampreh_logo'],
-  PartnersFriends: ['RAU', 'StickerMule'],
+  Gold: ['Digitain.png', 'Service_Titan.png', 'VMware.png'],
+  Silver: ['WorkFront.png', 'simply.png', 'Vineti_vertical.png', 'renderforest.png', 'flux.svg', 'Steadfast.svg', 'King_mampreh_logo.png'],
+  PartnersFriends: ['RAU.png', 'StickerMule.png'],
 };
 
 const sponsorsUrls = {
@@ -35,10 +35,11 @@ const sponsorsUrls = {
 const SponsorsLogoList = type => (
   <ul className="List SponsorsLogoList">
     {
-      sponsorImages[type].map((sponsorName) => {
+      sponsorImages[type].map((sponsorImageName) => {
+        const sponsorName = sponsorImageName.split('.')[0];
         const image = (
           <img
-            src={`./sponsors/${type}/${sponsorName}.png`}
+            src={`./sponsors/${type}/${sponsorImageName}`}
             alt={sponsorName}
             className={`${type}Sponsors`}
           />
