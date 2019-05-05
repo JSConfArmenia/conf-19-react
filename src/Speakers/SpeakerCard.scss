@@ -48,6 +48,25 @@
     margin-bottom: 20px;
   }
 
+  .SpeakerImageOverlay {
+    background: #020937;
+    position: absolute;
+    margin-left: 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: .3s ease;
+  }
+
+  &:hover .SpeakerImageOverlay {
+    opacity: 0;
+  }
+
   .SpeakerSocialLinks {
     display: flex;
     flex-direction: row;
