@@ -7,7 +7,7 @@ import './Sponsors.scss';
 
 const sponsorImages = {
   Gold: ['Digitain', 'Service_Titan', 'VMware'],
-  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest', 'King_mampreh_logo'],
+  Silver: ['WorkFront', 'simply', 'Vineti_vertical', 'renderforest', 'flux', 'Steadfast', 'King_mampreh_logo'],
   PartnersFriends: ['RAU', 'StickerMule'],
 };
 
@@ -23,12 +23,15 @@ const sponsorsUrls = {
   WorkFront: 'https://www.workfront.com/',
   BetConstruct: 'https://www.betconstruct.com/',
   RAU: 'http://www.rau.am/rus',
+  flux: 'https://fluxtech.me/',
+  Steadfast: 'https://steadfast.tech/'
 };
 
 // please don't kill me for this code :D
 // TODO :: improve
 // Ներում ենք ;)
 // OMG, who wrote this?!!! :D
+// of course, me :P
 const SponsorsLogoList = type => (
   <ul className="List SponsorsLogoList">
     {

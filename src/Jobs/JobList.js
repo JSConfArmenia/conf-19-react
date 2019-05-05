@@ -34,4 +34,9 @@ export default [
     company: 'King Mampreh',
     url: 'https://www.facebook.com/kingmampreh/photos/a.2235200686714944/2409592989275712/',
   },
+  {
+    title: 'JavaScript Developer',
+    company: 'Flux Technologies',
+    url: 'https://fluxtech.me/careers/?tab=senior-developer-node-js-angular',
+  },
 ];
