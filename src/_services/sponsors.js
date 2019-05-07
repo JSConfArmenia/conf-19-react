@@ -57,6 +57,11 @@ const sponsors = {
       type: 'silver',
       url: 'https://steadfast.tech/',
     },
+    {
+      name: 'name.am',
+      type: 'silver',
+      url: 'https://name.am/',
+    },
   ],
   partner: [
     {
