@@ -9,31 +9,57 @@
 
   .SponsorsLogoList {
     margin: 40px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-    img {
-      margin: 20px;
-      vertical-align: middle;
-      opacity: 0.8;
+  .SponsorItem {
+    margin: 20px;
+    vertical-align: middle;
+    opacity: 0.8;
+
+
+    &.-gold {
+      margin: 30px;
     }
 
-    img:hover {
+    &:hover {
       opacity: 1;
     }
+  }
 
-    .GoldSponsors {
+  .SponsorImage {
+    &.-gold {
       width: 300px;
+      height: 180px;
+    }
+
+    &.-silver {
+      width: 220px;
+      height: 110px;
+    }
+
+    &.-partner {
+      width: 250px;
+      height: 100px;
+    }
+
+    &.-servicetitan {
+      width: 260px;
+      height: 160px;
     }
   }
 
-  .SilverSponsors, .PartnersFriendsSponsors {
-    width: 240px;
-  }
+  // .GoldSponsors {
+  //   width: 300px;
+  // }
 
-  .Vineti_vertical {
-    img {
-      width: 150px;
-    }
-  }
+  // .SilverSponsors, .PartnersFriendsSponsors {
+  //   width: 240px;
+  // }
+
 
   .IllustrationContainer {
     width: 100%;
@@ -48,9 +74,6 @@
     position: relative;
     width: 75%;
   }
-
-
-
 
 
   @include media-down(md) {

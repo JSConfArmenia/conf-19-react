@@ -1,31 +1,12 @@
 import React from 'react';
+
+import sponsors from '../_services/sponsors';
 import Title, { TitleAccent } from '../_components/Title';
 import Button from '../_components/Button';
 import Description from '../_components/Description';
 
 import './Sponsors.scss';
 
-const sponsorImages = {
-  Gold: ['Digitain.png', 'Service_Titan.png', 'VMware.png'],
-  Silver: ['WorkFront.png', 'simply.png', 'Vineti_vertical.png', 'renderforest.png', 'King_mampreh_logo.png'],
-  PartnersFriends: ['RAU.png', 'StickerMule.png'],
-};
-
-const sponsorsUrls = {
-  simply: 'https://www.simplytechnologies.net/',
-  renderforest: 'https://www.renderforest.com/',
-  StickerMule: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
-  Digitain: 'https://digitain.com/',
-  Service_Titan: 'https://www.servicetitan.com/',
-  VMware: 'https://www.vmware.com/',
-  Vineti_vertical: 'https://vineti.com/',
-  King_mampreh_logo: 'https://www.facebook.com/kingmampreh/',
-  WorkFront: 'https://www.workfront.com/',
-  BetConstruct: 'https://www.betconstruct.com/',
-  RAU: 'http://www.rau.am/rus',
-  flux: 'https://fluxtech.me/',
-  Steadfast: 'https://steadfast.tech/',
-};
 
 // please don't kill me for this code :D
 // TODO :: improve
@@ -35,30 +16,21 @@ const sponsorsUrls = {
 const SponsorsLogoList = type => (
   <ul className="List SponsorsLogoList">
     {
-      sponsorImages[type].map((sponsorImageName) => {
-        const sponsorName = sponsorImageName.split('.')[0];
-        const image = (
+      sponsors[type].map(({ name, url }) => (
+        <a
+          href={url}
+          key={name}
+          target="_blank"
+          className={`SponsorItem -${type} -${name}`}
+          rel="noopener noreferrer"
+        >
           <img
-            src={`./sponsors/${type}/${sponsorImageName}`}
-            alt={sponsorName}
-            className={`${type}Sponsors`}
+            src={`./sponsors/${name}.svg`}
+            alt={name}
+            className={`SponsorImage -${type} -${name}`}
           />
-        );
-        if (sponsorsUrls[sponsorName]) {
-          return (
-            <a
-              href={sponsorsUrls[sponsorName]}
-              key={sponsorName}
-              target="_blank"
-              className={sponsorName}
-              rel="noopener noreferrer"
-            >
-              {image}
-            </a>
-          );
-        }
-        return image;
-      })
+        </a>
+      ))
     }
   </ul>
 );
@@ -72,11 +44,11 @@ const Sponsors = () => (
           <TitleAccent color="primary1"> Sponsors</TitleAccent>
         </Title>
         <Description>Gold Sponsors</Description>
-        { SponsorsLogoList('Gold') }
+        { SponsorsLogoList('gold') }
         <Description>Silver Sponsors</Description>
-        { SponsorsLogoList('Silver') }
+        { SponsorsLogoList('silver') }
         <Description>Partners & Friends</Description>
-        { SponsorsLogoList('PartnersFriends') }
+        { SponsorsLogoList('partner') }
       </div>
       <div className="row">
         <div className="col-lg-6">
