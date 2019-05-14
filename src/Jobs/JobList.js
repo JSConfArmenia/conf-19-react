@@ -39,4 +39,9 @@ export default [
     company: 'Flux Technologies',
     url: 'https://fluxtech.me/careers/?tab=senior-developer-node-js-angular',
   },
+  {
+    title: 'Senior Software Engineer',
+    company: 'Workfront Armenia',
+    url: 'https://www.workfront.com/job/?gh_jid=1593048',
+  },
 ];
