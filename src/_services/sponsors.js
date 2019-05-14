@@ -62,6 +62,11 @@ const sponsors = {
       type: 'silver',
       url: 'https://name.am/',
     },
+    {
+      name: 'ameriabank',
+      type: 'silver',
+      url: 'https://www.ameriabank.am/',
+    },
   ],
   partner: [
     {
