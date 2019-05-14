@@ -44,4 +44,9 @@ export default [
     company: 'Workfront Armenia',
     url: 'https://www.workfront.com/job/?gh_jid=1593048',
   },
+  {
+    title: 'React Engineer',
+    company: 'Renderforest',
+    url: 'https://www.renderforest.com/careers/frontend-developer',
+  },  
 ];
