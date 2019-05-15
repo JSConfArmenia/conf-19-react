@@ -67,7 +67,7 @@ const sponsors = {
       type: 'silver',
       url: 'https://name.am/',
     },
-    ],
+   ],
   partner: [
     {
       name: 'rau',
@@ -78,6 +78,11 @@ const sponsors = {
       name: 'stickermule',
       type: 'partner',
       url: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
+    },
+    {
+      name: 'gg',
+      type: 'partner',
+      url: 'https://www.ggtaxi.com/',
     },
   ],
 };
