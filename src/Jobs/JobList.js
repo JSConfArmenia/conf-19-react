@@ -48,5 +48,5 @@ export default [
     title: 'React Engineer',
     company: 'Renderforest',
     url: 'https://www.renderforest.com/careers/frontend-developer',
-  },  
+  },
 ];
