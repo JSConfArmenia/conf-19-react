@@ -53,6 +53,11 @@ const sponsors = {
       url: 'https://www.betconstruct.com/',
     },
     {
+      name: 'ameriabank',
+      type: 'silver',
+      url: 'https://www.ameriabank.am/',
+    },
+    {
       name: 'steadfast',
       type: 'silver',
       url: 'https://steadfast.tech/',
@@ -62,12 +67,7 @@ const sponsors = {
       type: 'silver',
       url: 'https://name.am/',
     },
-    {
-      name: 'ameriabank',
-      type: 'silver',
-      url: 'https://www.ameriabank.am/',
-    },
-  ],
+    ],
   partner: [
     {
       name: 'rau',
