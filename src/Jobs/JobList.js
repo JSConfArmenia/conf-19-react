@@ -25,6 +25,16 @@ export default [
     url: 'https://recruiting.paylocity.com/Recruiting/Jobs/Details/59317',
   },
   {
+    title: 'Senior Front-End Developer',
+    company: 'AmeriaBank',
+    url: 'https://www.ameriabank.am/career.aspx?cat=4&type=0&id=3621&lang=28',
+  },
+  {
+    title: 'Junior Front-End Developer',
+    company: 'AmeriaBank',
+    url: 'https://www.ameriabank.am/Career.aspx?cat=4&type=0&id=3620&lang=28',
+  },
+  {
     title: 'Mid/Senior JavaScript Developer',
     company: 'Digitain',
     url: 'https://digitain.com/vacancy/mid-senior-javascript-developer-2/',
