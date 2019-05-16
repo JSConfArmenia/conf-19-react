@@ -49,4 +49,24 @@ export default [
     company: 'Renderforest',
     url: 'https://www.renderforest.com/careers/frontend-developer',
   },
+  {
+    title: 'JavaScript Engineer',
+    company: 'BetConstruct',
+    url: 'https://career.betconstruct.me/software-engineer-js-oriented',
+  },
+  {
+    title: 'React Engineer',
+    company: 'BetConstruct',
+    url: 'https://career.betconstruct.me/software-engineer-reactjs-oriented',
+  },
+  {
+    title: 'Full-Stack JS Developer',
+    company: 'BetConstruct',
+    url: 'https://career.betconstruct.me/full-stack-js-developer',
+  },
+  {
+    title: 'Software Engineer',
+    company: 'BetConstruct',
+    url: 'https://career.betconstruct.me/software-eng-angular-js-oriented',
+  },
 ];
