@@ -67,7 +67,7 @@ const sponsors = {
       type: 'silver',
       url: 'https://name.am/',
     },
-   ],
+  ],
   partner: [
     {
       name: 'rau',
