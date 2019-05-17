@@ -79,6 +79,11 @@ const sponsors = {
       type: 'partner',
       url: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
     },
+    {
+      name: 'gg',
+      type: 'partner',
+      url: 'https://www.ggtaxi.com/',
+    },
   ],
 };
 
