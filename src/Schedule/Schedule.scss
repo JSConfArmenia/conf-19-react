@@ -1,0 +1,113 @@
+@import '../_common/utils';
+
+.Schedule {
+  padding-bottom: 100px;
+
+  .ScheduleTitleContainer {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .Title {
+      margin-bottom: .5rem;
+    }
+  }
+
+
+  .ScheduleRow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ScheduleItem {
+    flex: 1;
+    color: #c3c8e5;
+
+
+    .ItemSpeaker {
+      min-height: 60px;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+
+    .ItemTitle {
+      min-height: 50px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      border: 5px dashed #ff790b;
+      border-radius: 22px;
+      font-weight: bold;
+
+      &.-large {
+        justify-content: center;
+        min-height: 60px;
+      }
+    }
+
+    &:first-of-type {
+      .ItemTitle,
+      .ItemSpeaker {
+        justify-content: flex-end;
+      }
+    }
+
+
+    &:last-of-type {
+      .ItemTitle,
+      .ItemSpeaker {
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  .ScheduleTime {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+    color: rgb(0, 222, 211);
+    padding-top: 21px;
+    overflow: hidden;
+    font-size: 1.1rem;
+
+
+    .TimeValue {
+      position: relative;
+
+
+      &:before,
+      &:after {
+        display: block;
+        width: 100%;
+        content: " ";
+        position: absolute;
+        height: 1px;
+        background: #c3c8e5;
+        top: 50%;
+        margin-top: -1px;
+        opacity: .3;
+      }
+
+      &:before {
+        right: 100%;
+        margin-right: 7px;
+      }
+
+      &:after {
+        left: 100%;
+        margin-left: 7px;
+      }
+    }
+
+  }
+}

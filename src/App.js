@@ -9,6 +9,7 @@ import Footer from './Footer/Footer';
 import FAQ from './Faq/Faq';
 import Speakers from './Speakers/Speakers';
 import Sponsors from './Sponsors/Sponsors';
+import Schedule from './Schedule/Schedule';
 import Jobs from './Jobs/Jobs';
 import Background from './Background/Background';
 
@@ -19,6 +20,7 @@ const App = () => (
     <Header />
     <Intro />
     <About />
+    <Schedule />
     <Speakers />
     <Sponsors />
     <Team />
