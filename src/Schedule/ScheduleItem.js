@@ -33,7 +33,7 @@ const ScheduleItemSpeakers = ({ speakers = [] }) => (
         <div
           className="SpeakerImg"
           style={{
-            backgroundImage: `url(${speaker.img})`,
+            backgroundImage: `url(${speaker.imgSmall})`,
           }}
         />
       </div>
