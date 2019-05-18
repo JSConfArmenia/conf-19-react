@@ -11,7 +11,10 @@ const TimelineItem = ({
       height: `${duration * timeScaling}px`,
     }}
   >
-    <div className="TimeValue">{time}</div>
+    <div className="TimeValue">
+      {time}
+      <div className="TimePattern" />
+    </div>
   </div>
 );
 

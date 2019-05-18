@@ -75,7 +75,7 @@ const timeline = [
   },
   {
     time: '17:00',
-    duration: 30,
+    duration: 15,
     orient: 'left',
   },
 ];
@@ -146,7 +146,7 @@ const schedule = [
     },
     {
       topic: 'CLOSING',
-      duration: 30,
+      duration: 15,
       isGeneral: true,
     },
   ],

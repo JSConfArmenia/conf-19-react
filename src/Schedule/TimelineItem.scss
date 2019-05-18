@@ -19,6 +19,20 @@
   .TimeValue {
     position: relative;
 
+    .TimePattern {
+      width: 20px;
+      height: 300px;
+      position: absolute;
+      top: 100%;
+      margin-left: -10px;
+      margin-top: 10px;
+      left: 50%;
+      background-image: url(/timeline-pattern.png);
+      background-repeat: repeat-y;
+      background-position-x: center;
+      background-position-y: top;
+    }
+
 
     &:before,
     &:after {

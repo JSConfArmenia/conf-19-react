@@ -23,8 +23,9 @@ const ScheduleItemSpeakers = ({ speakers = [] }) => (
         offset={-100}
         onClick={handleSpeakerClick}
         className="ItemSpeakerLink"
+        key={speaker.name}
       >
-        <div className="ItemSpeaker" key={speaker.name}>
+        <div className="ItemSpeaker">
           {speaker.name}
           <div
             className="SpeakerImg"
