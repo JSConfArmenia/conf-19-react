@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { timeline, schedule } from '../_services/schedule';
+
 import './Schedule.scss';
 
 import Title, { TitleAccent } from '../_components/Title';
+import TimelineItem from './TimelineItem';
+import ScheduleItem from './ScheduleItem';
+
+const scaling = 90 / 15;
 
 const Schedule = () => (
   <section id="schedule" className="Schedule">
@@ -14,49 +20,18 @@ const Schedule = () => (
         </Title>
         (subject to change)
       </div>
-      <div className="ScheduleBody">
-        <div className="ScheduleRow">
-          <div className="ScheduleItem">
-            <div className="ItemTitle -large">
-              OPENING
-            </div>
+      <div className="ScheduleWrapper">
+        <div className="ScheduleBody">
+          <div className="ScheduleLocation">
+            {schedule[0].map(item => <ScheduleItem {...item} scaling={scaling} orient="right" key={item.index} />)}
           </div>
-          <div className="ScheduleTime">
-            <div className="TimeValue">10:00</div>
+
+          <div className="ScheduleTimeline">
+            {timeline.map(item => <TimelineItem {...item} scaling={scaling} key={item.time} />)}
           </div>
-          <div className="ScheduleItem" />
-        </div>
-        <div className="ScheduleRow">
-          <div className="ScheduleItem">
-            <div className="ItemSpeaker">
-              Elizabet Oliveira
-              <div
-                className="SpeakerImg"
-                style={{
-                  backgroundImage: 'url(/speakers/Elizabet_Oliveira.jpg)',
-                }}
-              />
-            </div>
-            <div className="ItemTitle">
-              An SVG tale
-            </div>
-          </div>
-          <div className="ScheduleTime">
-            <div className="TimeValue">10:30</div>
-          </div>
-          <div className="ScheduleItem">
-            <div className="ItemSpeaker">
-              <div
-                className="SpeakerImg"
-                style={{
-                  backgroundImage: 'url(/speakers/Elizabet_Oliveira.jpg)',
-                }}
-              />
-              Lilit Tadevosyan
-            </div>
-            <div className="ItemTitle">
-              Server-side rendering with React: Win or Lose
-            </div>
+
+          <div className="ScheduleLocation">
+            {schedule[1].map(item => <ScheduleItem {...item} scaling={scaling} orient="left" key={item.index} />)}
           </div>
         </div>
       </div>
