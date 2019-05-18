@@ -1,20 +1,39 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Link } from 'react-scroll';
+
 import './ScheduleItem.scss';
+
+const handleSpeakerClick = () => {
+  if (window.history.pushState) {
+    window.history.pushState(null, null, '#speakers');
+  } else {
+    window.location.hash = 'speakers';
+  }
+};
 
 const ScheduleItemSpeakers = ({ speakers = [] }) => (
   <div className="ScheduleItemSpeakers">
     {speakers.map(speaker => (
-      <div className="ItemSpeaker" key={speaker.name}>
-        {speaker.name}
-        <div
-          className="SpeakerImg"
-          style={{
-            backgroundImage: `url(${speaker.img})`,
-          }}
-        />
-      </div>
+      <Link
+        to={`speakers-${speaker.id}`}
+        smooth="true"
+        spy={false}
+        offset={-100}
+        onClick={handleSpeakerClick}
+        className="ItemSpeakerLink"
+      >
+        <div className="ItemSpeaker" key={speaker.name}>
+          {speaker.name}
+          <div
+            className="SpeakerImg"
+            style={{
+              backgroundImage: `url(${speaker.img})`,
+            }}
+          />
+        </div>
+      </Link>
     ))}
   </div>
 );

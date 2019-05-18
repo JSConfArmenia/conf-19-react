@@ -1,5 +1,6 @@
 export default {
   Jesse_Martin: {
+    id: 'Jesse_Martin',
     img: '/speakers/Jesse_Martin.jpg',
     name: 'Jesse Martin',
     position: 'Full-stack Developer at GraphCMS',
@@ -10,6 +11,7 @@ export default {
     ],
   },
   Roy_Derks: {
+    id: 'Roy_Derks',
     img: '/speakers/Roy_Derks.jpg',
     name: 'Roy Derks',
     position: 'Serial Startup CTO, Teacher at reactjs.academy',
@@ -20,6 +22,7 @@ export default {
     ],
   },
   Varik_Matevosyan: {
+    id: 'Varik_Matevosyan',
     img: '/speakers/Varik_Matevosyan.jpg',
     name: 'Varik Matevosyan',
     position: 'CTO at Steadfast',
@@ -30,6 +33,7 @@ export default {
     ],
   },
   Khachatur_Virabyan: {
+    id: 'Khachatur_Virabyan',
     img: '/speakers/Khachatur_Virabyan.jpg',
     name: 'Khachatur Virabyan',
     position: 'React Developer at Renderforest',
@@ -40,6 +44,7 @@ export default {
     ],
   },
   Eugene_Zharkov: {
+    id: 'Eugene_Zharkov',
     img: '/speakers/Eugene_Zharkov.jpg',
     name: 'Eugene Zharkov',
     position: 'React Native Developer',
@@ -50,6 +55,7 @@ export default {
     ],
   },
   Leandro_Ostera: {
+    id: 'Leandro_Ostera',
     img: '/speakers/Leandro_Ostera.jpg',
     name: 'Leandro Ostera',
     position: 'Senior Web Engineer at SRC',
@@ -60,6 +66,7 @@ export default {
     ],
   },
   Sara_Vieira: {
+    id: 'Sara_Vieira',
     img: '/speakers/Sara_Vieira.jpg',
     name: 'Sara Vieira',
     position: 'Developer at CodeSandbox',
@@ -70,6 +77,7 @@ export default {
     ],
   },
   Denys_Radin: {
+    id: 'Denys_Radin',
     img: '/speakers/Denys_Radin.jpg',
     name: 'Denys Radin',
     position: 'Author of HTML-GL, ReactiveElements, JavaScript/WebGL engineer at Focus Reactive',
@@ -80,6 +88,7 @@ export default {
     ],
   },
   Gagik_Arustamyan: {
+    id: 'Gagik_Arustamyan',
     img: '/speakers/Gagik_Arustamyan.jpg',
     name: 'Gagik Arustamyan',
     position: 'Head of Front-end/JavaScript development at SFL',
@@ -89,6 +98,7 @@ export default {
     ],
   },
   Radoslaw_Malecki: {
+    id: 'Radoslaw_Malecki',
     img: '/speakers/Radoslaw_Malecki.jpg',
     name: 'Radoslaw Malecki',
     position: 'Senior Frontend Developer at OLX Group',
@@ -99,6 +109,7 @@ export default {
     ],
   },
   Narendra_Shetty: {
+    id: 'Narendra_Shetty',
     img: '/speakers/Narendra_Shetty.jpg',
     name: 'Narendra Shetty',
     position: 'Senior Frontend Developer at Twilio',
@@ -109,6 +120,7 @@ export default {
     ],
   },
   Miłosz_Piechocki: {
+    id: 'Miłosz_Piechocki',
     img: '/speakers/Miłosz_Piechocki.jpg',
     name: 'Miłosz Piechocki',
     position: 'Senior Front-end Developer at SumoLogic',
@@ -119,6 +131,7 @@ export default {
     ],
   },
   Cristian_Oliveira_da_Rosa: {
+    id: 'Cristian_Oliveira_da_Rosa',
     img: '/speakers/Cristian_Oliveira_da_Rosa.jpg',
     name: 'Cristian Oliveira da Rosa',
     position: 'Software Developer at Sumup.com',
@@ -129,6 +142,7 @@ export default {
     ],
   },
   Elizabet_Oliveira: {
+    id: 'Elizabet_Oliveira',
     img: '/speakers/Elizabet_Oliveira.jpg',
     name: 'Elizabet Oliveira',
     position: 'Senior UX Designer at Optum',
@@ -139,6 +153,7 @@ export default {
     ],
   },
   Lilit_Tadevosyan: {
+    id: 'Lilit_Tadevosyan',
     img: '/speakers/Lilit_Tadevosyan.jpg',
     name: 'Lilit Tadevosyan',
     position: 'Lead JavaScript developer at SFL',
@@ -148,6 +163,7 @@ export default {
     ],
   },
   Rebecca_Hill: {
+    id: 'Rebecca_Hill',
     img: '/speakers/Rebecca_Hill.jpg',
     name: 'Rebecca Hill',
     position: 'Senior Frontend Developer and Team Lead at WeTransfer',
@@ -158,6 +174,7 @@ export default {
     ],
   },
   Taguhi_Asatryan: {
+    id: 'Taguhi_Asatryan',
     img: '/speakers/Taguhi_Asatryan.jpg',
     name: 'Taguhi Asatryan',
     position: 'Full-Stack Developer at Teamable',
@@ -167,6 +184,7 @@ export default {
     ],
   },
   Dan_Abramov: {
+    id: 'Dan_Abramov',
     img: '/speakers/Dan_Abramov.png',
     name: 'Dan Abramov',
     position: 'Co-author of Redux and Create React App, Working on React at Facebook',

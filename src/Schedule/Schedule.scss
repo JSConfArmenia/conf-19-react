@@ -12,20 +12,43 @@
     }
   }
 
+  .ScheduleWrapper {
+    overflow-x: auto;
+  }
+
   .ScheduleBody {
     display: flex;
     flex-direction: row;
+    min-width: 720px;
   }
 
   .ScheduleLocation {
     display: flex;
     flex-direction: column;
     flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
   }
 
   .ScheduleTimeline {
-    width: 100px;
+    // width: 100px;
     display: flex;
     flex-direction: column;
   }
+
+  @include media-down(md) {
+    .container {
+      padding: 0;
+      max-width: 740px;
+    }
+
+
+  }
+
+  @include media-down(md) {
+    .ScheduleBody {
+      padding: 0 15px;
+    }
+  }
+
 }
