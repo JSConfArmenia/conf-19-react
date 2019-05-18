@@ -1,4 +1,6 @@
+@import '../_common/variables.scss';
 @import '../_common/utils';
+
 
 .Schedule {
   padding-bottom: 100px;
@@ -9,6 +11,25 @@
 
     .Title {
       margin-bottom: .5rem;
+    }
+  }
+
+  .ScheduleLevels {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+
+    .Level {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin:  0 3%;
+    }
+
+    .LevelIcon {
+      margin-right: 10px;
     }
   }
 
@@ -28,6 +49,18 @@
     flex: 1;
     flex-shrink: 1;
     flex-grow: 1;
+
+    .Title {
+      font-size: 2rem;
+    }
+
+    &.-orient-right {
+      text-align: right;
+    }
+
+    &.-orient-left {
+      text-align: left;
+    }
   }
 
   .ScheduleTimeline {

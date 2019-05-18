@@ -4,6 +4,12 @@
   width: 100%;
   color: #c3c8e5;
   padding-bottom: 30px;
+  // transition: all .25s ease;
+  border-radius: 30px;
+
+  &:hover {
+    // background-color: #00ded307;
+  }
 
   .ScheduleItemSpeakers {
     flex-direction: row;
@@ -19,7 +25,7 @@
   }
 
   .ItemSpeakerLink:hover .ItemSpeaker {
-    opacity: 1;
+    // opacity: 1;
   }
 
 
@@ -30,7 +36,7 @@
     flex-direction: row;
     align-items: center;
     transition: all .25s ease;
-    opacity: .7;
+    // opacity: .7;
 
     @include media-down(md) {
       font-size: 1.1rem;
@@ -57,9 +63,30 @@
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    border: 5px dashed #ff790b;
+    border: 4px dashed #ff790b;
     border-radius: 22px;
     font-weight: bold;
+
+    &.-level-0 {
+      border-color: #c3c8e5;
+    }
+
+    &.-level-1 {
+      border-color: #ff790b;
+    }
+
+    &.-level-2 {
+      border-color: #00ded3;
+      // border-image-width: 10px;
+      // border-left-image: url('/borders/blue-left.png');
+      // border-right-image: url('/borders/blue-right.png');
+      // border-bottom-image: url('/borders/blue-bottom.png');
+      // border-top-image: url('/borders/blue-top.png');
+    }
+
+    &.-level-3 {
+      border-color: #d91dbd;
+    }
 
     @include media-down(md) {
       font-size: 1rem;

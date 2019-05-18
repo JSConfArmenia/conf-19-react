@@ -87,14 +87,17 @@ const schedule = [
       topic: 'OPENING',
       duration: 30,
       isGeneral: true,
+      level: 0,
     },
     {
       speakers: [speakers.Elizabet_Oliveira],
       duration: 30,
+      level: 1,
     },
     {
       speakers: [speakers.Miłosz_Piechocki],
       duration: 45,
+      level: 3,
     },
     {
       topic: 'Break for 15 min',
@@ -104,10 +107,12 @@ const schedule = [
     {
       speakers: [speakers.Khachatur_Virabyan],
       duration: 45,
+      level: 2,
     },
     {
       speakers: [speakers.Sara_Vieira],
       duration: 30,
+      level: 2,
     },
     {
       topic: 'Break for 15 min',
@@ -117,10 +122,12 @@ const schedule = [
     {
       speakers: [speakers.Roy_Derks],
       duration: 45,
+      level: 2,
     },
     {
       speakers: [speakers.Narendra_Shetty],
       duration: 30,
+      level: 2,
     },
     {
       topic: 'Break for 15 min',
@@ -130,10 +137,12 @@ const schedule = [
     {
       speakers: [speakers.Denys_Radin],
       duration: 30,
+      level: 2,
     },
     {
       speakers: [speakers.Rebecca_Hill],
       duration: 30,
+      level: 2,
     },
     {
       topic: 'Break for 15 min',
@@ -143,11 +152,13 @@ const schedule = [
     {
       speakers: [speakers.Dan_Abramov, speakers.Sara_Vieira],
       duration: 45,
+      level: 0,
     },
     {
       topic: 'CLOSING',
       duration: 15,
       isGeneral: true,
+      level: 0,
     },
   ],
   // Blue hall
@@ -160,10 +171,12 @@ const schedule = [
     {
       speakers: [speakers.Lilit_Tadevosyan],
       duration: 30,
+      level: 1,
     },
     {
       speakers: [speakers.Eugene_Zharkov],
       duration: 45,
+      level: 2,
     },
     {
       topic: 'Break for 15 min',
@@ -173,10 +186,12 @@ const schedule = [
     {
       speakers: [speakers.Leandro_Ostera],
       duration: 45,
+      level: 0,
     },
     {
       speakers: [speakers.Taguhi_Asatryan],
       duration: 30,
+      level: 3,
     },
     {
       topic: 'Break for 15 min',
@@ -186,22 +201,27 @@ const schedule = [
     {
       speakers: [speakers.Cristian_Oliveira_da_Rosa],
       duration: 45,
+      level: 2,
     },
     {
       speakers: [speakers.Jesse_Martin],
       duration: 30,
+      level: 2,
     },
     {
       speakers: [speakers.Gagik_Arustamyan],
       duration: 30,
+      level: 0,
     },
     {
       speakers: [speakers.Radoslaw_Malecki],
       duration: 30,
+      level: 2,
     },
     {
       speakers: [speakers.Varik_Matevosyan],
       duration: 30,
+      level: 0,
     },
   ],
 ];
