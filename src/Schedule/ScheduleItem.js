@@ -24,7 +24,7 @@ const ScheduleItem = ({
   topic = '',
   speakers = [],
   duration,
-  scaling,
+  timeScaling,
   orient,
   isBreak,
   isGeneral,
@@ -39,7 +39,7 @@ const ScheduleItem = ({
       ${isPlaceholder ? '-placeholder' : ''}
     `}
     style={{
-      height: `${duration * scaling}px`,
+      height: `${duration * timeScaling}px`,
     }}
   >
     {speakers.length > 0
@@ -57,6 +57,7 @@ ScheduleItem.propTypes = {
   speakers: PropTypes.arrayOf(PropTypes.object),
   orient: PropTypes.string,
   duration: PropTypes.number,
+  timeScaling: PropTypes.number,
   isBreak: PropTypes.bool,
   isGeneral: PropTypes.bool,
   isPlaceholder: PropTypes.bool,
@@ -67,6 +68,7 @@ ScheduleItem.defaultProps = {
   speakers: [],
   orient: 'right',
   duration: 15,
+  timeScaling: 90 / 15,
   isBreak: false,
   isGeneral: false,
   isPlaceholder: false,

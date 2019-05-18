@@ -8,7 +8,7 @@ import Title, { TitleAccent } from '../_components/Title';
 import TimelineItem from './TimelineItem';
 import ScheduleItem from './ScheduleItem';
 
-const scaling = 90 / 15;
+const timeScalingDefault = 90 / 15;
 
 const Schedule = () => (
   <section id="schedule" className="Schedule">
@@ -23,15 +23,35 @@ const Schedule = () => (
       <div className="ScheduleWrapper">
         <div className="ScheduleBody">
           <div className="ScheduleLocation">
-            {schedule[0].map(item => <ScheduleItem {...item} scaling={scaling} orient="right" key={item.index} />)}
+            {schedule[0].map(item => (
+              <ScheduleItem
+                {...item}
+                timeScaling={item.timeScaling || timeScalingDefault}
+                orient="right"
+                key={item.index}
+              />
+            ))}
           </div>
 
           <div className="ScheduleTimeline">
-            {timeline.map(item => <TimelineItem {...item} scaling={scaling} key={item.time} />)}
+            {timeline.map(item => (
+              <TimelineItem
+                {...item}
+                timeScaling={item.timeScaling || timeScalingDefault}
+                key={item.time}
+              />
+            ))}
           </div>
 
           <div className="ScheduleLocation">
-            {schedule[1].map(item => <ScheduleItem {...item} scaling={scaling} orient="left" key={item.index} />)}
+            {schedule[1].map(item => (
+              <ScheduleItem
+                {...item}
+                timeScaling={item.timeScaling || timeScalingDefault}
+                orient="left"
+                key={item.index}
+              />
+            ))}
           </div>
         </div>
       </div>

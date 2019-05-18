@@ -2,11 +2,13 @@ import React from 'react';
 
 import './TimelineItem.scss';
 
-const TimelineItem = ({ time, duration, scaling }) => (
+const TimelineItem = ({
+  time, duration, timeScaling, orient = '',
+}) => (
   <div
-    className="TimelineItem"
+    className={`TimelineItem -orient-${orient}`}
     style={{
-      height: `${duration * scaling}px`,
+      height: `${duration * timeScaling}px`,
     }}
   >
     <div className="TimeValue">{time}</div>

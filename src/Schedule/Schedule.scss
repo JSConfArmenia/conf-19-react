@@ -5,7 +5,7 @@
 
   .ScheduleTitleContainer {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 
     .Title {
       margin-bottom: .5rem;
@@ -20,6 +20,7 @@
   .ScheduleLocation {
     display: flex;
     flex-direction: column;
+    flex: 1;
   }
 
   .ScheduleTimeline {

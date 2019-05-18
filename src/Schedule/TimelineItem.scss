@@ -38,4 +38,12 @@
     }
   }
 
+  &.-orient-left .TimeValue:after {
+    display: none;
+  }
+
+  &.-orient-right .TimeValue:before {
+    display: none;
+  }
+
 }
