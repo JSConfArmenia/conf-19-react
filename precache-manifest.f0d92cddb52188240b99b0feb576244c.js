@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0c50941a2ba9b4d6afb9",
-    "url": "/static/css/main.43458ac1.chunk.css"
+    "revision": "86d5944eb3c272a1c7b5",
+    "url": "/static/css/main.e30cabf1.chunk.css"
   },
   {
-    "revision": "0c50941a2ba9b4d6afb9",
-    "url": "/static/js/main.0c50941a.chunk.js"
+    "revision": "86d5944eb3c272a1c7b5",
+    "url": "/static/js/main.86d5944e.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -288,16 +288,16 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-Regular.79b123d5.eot"
   },
   {
-    "revision": "b44bcadd1b3b767dea406dae432bf909",
-    "url": "/static/media/AktivGrotesk-Regular.b44bcadd.ttf"
-  },
-  {
     "revision": "f4aa488011c7a26f2054ead19151343e",
     "url": "/static/media/AktivGrotesk-LightItalic.f4aa4880.eot"
   },
   {
     "revision": "11f45dcae4c900a798989cf0d848deb9",
     "url": "/static/media/AktivGrotesk-LightItalic.11f45dca.ttf"
+  },
+  {
+    "revision": "b44bcadd1b3b767dea406dae432bf909",
+    "url": "/static/media/AktivGrotesk-Regular.b44bcadd.ttf"
   },
   {
     "revision": "237266a15fd03299873d6cbaf99325b2",
@@ -420,7 +420,7 @@ self.__precacheManifest = [
     "url": "/static/media/AktivGrotesk-BoldItalic.9466c4dc.svg"
   },
   {
-    "revision": "cc47f7e324e3f34c0dac8bd0d2e826cc",
+    "revision": "6ad28a529fc6ee514a632f7540f29185",
     "url": "/index.html"
   }
 ];
