@@ -13,8 +13,8 @@ const SpeakerCard = ({
   socialUrls,
 }) => (
   <div className="SpeakerCard" id={`speakers-${id}`}>
-    <div className="SpeakerImageOverlay" />
     <div className="SpeakerImgContainer">
+      <div className="SpeakerImageOverlay" />
       <img
         alt={name}
         src={img}
