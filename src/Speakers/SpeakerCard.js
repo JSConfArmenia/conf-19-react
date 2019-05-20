@@ -5,13 +5,14 @@ import Title from '../_components/Title';
 import SpeakerSocialLink from './SpeakerSocialLink';
 
 const SpeakerCard = ({
+  id,
   img,
   name,
   topic,
   position,
   socialUrls,
 }) => (
-  <div className="SpeakerCard">
+  <div className="SpeakerCard" id={`speakers-${id}`}>
     <div className="SpeakerImageOverlay" />
     <div className="SpeakerImgContainer">
       <img

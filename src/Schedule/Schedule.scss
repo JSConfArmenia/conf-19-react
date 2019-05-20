@@ -1,0 +1,92 @@
+@import '../_common/variables.scss';
+@import '../_common/utils';
+
+
+.Schedule {
+  padding-bottom: 100px;
+
+  .ScheduleTitleContainer {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    .Title {
+      margin-bottom: .5rem;
+    }
+  }
+
+  .ScheduleLevels {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+
+    .Level {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin:  0 3%;
+    }
+
+    .LevelIcon {
+      margin-right: 10px;
+    }
+  }
+
+  .ScheduleWrapper {
+    overflow-x: auto;
+  }
+
+  .ScheduleBody {
+    display: flex;
+    flex-direction: row;
+    min-width: 720px;
+  }
+
+  .ScheduleLocation {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
+
+    .Title {
+      font-size: 2rem;
+    }
+
+    &.-orient-right {
+      text-align: right;
+    }
+
+    &.-orient-left {
+      text-align: left;
+    }
+  }
+
+  .ScheduleTimeline {
+    .Title {
+      font-size: 2rem;
+    }
+
+    // width: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include media-down(md) {
+    .container {
+      padding: 0;
+      max-width: 740px;
+    }
+
+
+  }
+
+  @include media-down(md) {
+    .ScheduleBody {
+      padding: 0 15px;
+    }
+  }
+
+}

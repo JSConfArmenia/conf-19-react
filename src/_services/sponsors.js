@@ -53,11 +53,6 @@ const sponsors = {
       url: 'https://www.betconstruct.com/',
     },
     {
-      name: 'ameriabank',
-      type: 'silver',
-      url: 'https://www.ameriabank.am/',
-    },
-    {
       name: 'steadfast',
       type: 'silver',
       url: 'https://steadfast.tech/',
@@ -67,6 +62,11 @@ const sponsors = {
       type: 'silver',
       url: 'https://name.am/',
     },
+    {
+      name: 'ameriabank',
+      type: 'silver',
+      url: 'https://www.ameriabank.am/',
+    },
   ],
   partner: [
     {
@@ -75,14 +75,14 @@ const sponsors = {
       url: 'http://www.rau.am/rus',
     },
     {
-      name: 'stickermule',
-      type: 'partner',
-      url: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
-    },
-    {
       name: 'gg',
       type: 'partner',
       url: 'https://www.ggtaxi.com/',
+    },
+    {
+      name: 'stickermule',
+      type: 'partner',
+      url: 'https://www.stickermule.com/uses/laptop-stickers?utm_source=sponsorship&utm_medium=referral&utm_campaign=ReactConfArmenia19',
     },
   ],
 };

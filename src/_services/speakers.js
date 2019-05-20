@@ -1,6 +1,8 @@
 export default {
   Jesse_Martin: {
+    id: 'Jesse_Martin',
     img: '/speakers/Jesse_Martin.jpg',
+    imgSmall: '/speakers-small/Jesse_Martin.png',
     name: 'Jesse Martin',
     position: 'Full-stack Developer at GraphCMS',
     topic: 'Product Ready React with GatsbyJS',
@@ -10,7 +12,9 @@ export default {
     ],
   },
   Roy_Derks: {
+    id: 'Roy_Derks',
     img: '/speakers/Roy_Derks.jpg',
+    imgSmall: '/speakers-small/Roy_Derks.png',
     name: 'Roy Derks',
     position: 'Serial Startup CTO, Teacher at reactjs.academy',
     topic: 'Handling Large-Scale State-Management with Context and Hooks',
@@ -20,7 +24,9 @@ export default {
     ],
   },
   Varik_Matevosyan: {
+    id: 'Varik_Matevosyan',
     img: '/speakers/Varik_Matevosyan.jpg',
+    imgSmall: '/speakers-small/Varik_Matevosyan.png',
     name: 'Varik Matevosyan',
     position: 'CTO at Steadfast',
     topic: 'Testing React in a right way',
@@ -30,7 +36,9 @@ export default {
     ],
   },
   Khachatur_Virabyan: {
+    id: 'Khachatur_Virabyan',
     img: '/speakers/Khachatur_Virabyan.jpg',
+    imgSmall: '/speakers-small/Khachatur_Virabyan.png',
     name: 'Khachatur Virabyan',
     position: 'React Developer at Renderforest',
     topic: 'Dynamic styling systems with React',
@@ -40,7 +48,9 @@ export default {
     ],
   },
   Eugene_Zharkov: {
+    id: 'Eugene_Zharkov',
     img: '/speakers/Eugene_Zharkov.jpg',
+    imgSmall: '/speakers-small/Eugene_Zharkov.png',
     name: 'Eugene Zharkov',
     position: 'React Native Developer',
     topic: 'Monorepo: React Web & React Native',
@@ -50,7 +60,9 @@ export default {
     ],
   },
   Leandro_Ostera: {
+    id: 'Leandro_Ostera',
     img: '/speakers/Leandro_Ostera.jpg',
+    imgSmall: '/speakers-small/Leandro_Ostera.png',
     name: 'Leandro Ostera',
     position: 'Senior Web Engineer at SRC',
     topic: 'A Reasonable Web',
@@ -60,7 +72,9 @@ export default {
     ],
   },
   Sara_Vieira: {
+    id: 'Sara_Vieira',
     img: '/speakers/Sara_Vieira.jpg',
+    imgSmall: '/speakers-small/Sara_Vieira.png',
     name: 'Sara Vieira',
     position: 'Developer at CodeSandbox',
     topic: 'Let’s manage our local state with GraphQL',
@@ -70,7 +84,9 @@ export default {
     ],
   },
   Denys_Radin: {
+    id: 'Denys_Radin',
     img: '/speakers/Denys_Radin.jpg',
+    imgSmall: '/speakers-small/Denys_Radin.png',
     name: 'Denys Radin',
     position: 'Author of HTML-GL, ReactiveElements, JavaScript/WebGL engineer at Focus Reactive',
     topic: 'Photorealistic 3D graphics on the Web with ReactJS, WebGL and Unity3D',
@@ -80,7 +96,9 @@ export default {
     ],
   },
   Gagik_Arustamyan: {
+    id: 'Gagik_Arustamyan',
     img: '/speakers/Gagik_Arustamyan.jpg',
+    imgSmall: '/speakers-small/Gagik_Arustamyan.png',
     name: 'Gagik Arustamyan',
     position: 'Head of Front-end/JavaScript development at SFL',
     topic: 'From design systems to component libraries',
@@ -89,7 +107,9 @@ export default {
     ],
   },
   Radoslaw_Malecki: {
+    id: 'Radoslaw_Malecki',
     img: '/speakers/Radoslaw_Malecki.jpg',
+    imgSmall: '/speakers-small/Radoslaw_Malecki.png',
     name: 'Radoslaw Malecki',
     position: 'Senior Frontend Developer at OLX Group',
     topic: 'Let\'s make a photo booth in React!',
@@ -99,7 +119,9 @@ export default {
     ],
   },
   Narendra_Shetty: {
+    id: 'Narendra_Shetty',
     img: '/speakers/Narendra_Shetty.jpg',
+    imgSmall: '/speakers-small/Narendra_Shetty.png',
     name: 'Narendra Shetty',
     position: 'Senior Frontend Developer at Twilio',
     topic: 'Turning an Application UI into an API',
@@ -109,7 +131,9 @@ export default {
     ],
   },
   Miłosz_Piechocki: {
+    id: 'Miłosz_Piechocki',
     img: '/speakers/Miłosz_Piechocki.jpg',
+    imgSmall: '/speakers-small/Miłosz_Piechocki.png',
     name: 'Miłosz Piechocki',
     position: 'Senior Front-end Developer at SumoLogic',
     topic: 'Make your React code bulletproof with some TypeScript wizardry',
@@ -119,7 +143,9 @@ export default {
     ],
   },
   Cristian_Oliveira_da_Rosa: {
+    id: 'Cristian_Oliveira_da_Rosa',
     img: '/speakers/Cristian_Oliveira_da_Rosa.jpg',
+    imgSmall: '/speakers-small/Cristian_Oliveira_da_Rosa.png',
     name: 'Cristian Oliveira da Rosa',
     position: 'Software Developer at Sumup.com',
     topic: 'React to the need for speed',
@@ -129,7 +155,9 @@ export default {
     ],
   },
   Elizabet_Oliveira: {
+    id: 'Elizabet_Oliveira',
     img: '/speakers/Elizabet_Oliveira.jpg',
+    imgSmall: '/speakers-small/Elizabet_Oliveira.png',
     name: 'Elizabet Oliveira',
     position: 'Senior UX Designer at Optum',
     topic: 'An SVG’s Tale',
@@ -139,7 +167,9 @@ export default {
     ],
   },
   Lilit_Tadevosyan: {
+    id: 'Lilit_Tadevosyan',
     img: '/speakers/Lilit_Tadevosyan.jpg',
+    imgSmall: '/speakers-small/Lilit_Tadevosyan.png',
     name: 'Lilit Tadevosyan',
     position: 'Lead JavaScript developer at SFL',
     topic: 'Server-Side Rendering with React: Win or Lose',
@@ -148,7 +178,9 @@ export default {
     ],
   },
   Rebecca_Hill: {
+    id: 'Rebecca_Hill',
     img: '/speakers/Rebecca_Hill.jpg',
+    imgSmall: '/speakers-small/Rebecca_Hill.png',
     name: 'Rebecca Hill',
     position: 'Senior Frontend Developer and Team Lead at WeTransfer',
     topic: 'Structuring your app\'s business logic',
@@ -158,7 +190,9 @@ export default {
     ],
   },
   Taguhi_Asatryan: {
+    id: 'Taguhi_Asatryan',
     img: '/speakers/Taguhi_Asatryan.jpg',
+    imgSmall: '/speakers-small/Taguhi_Asatryan.png',
     name: 'Taguhi Asatryan',
     position: 'Full-Stack Developer at Teamable',
     topic: 'Testing React Ecosystem: Do\'s and Don\'ts',
@@ -167,7 +201,9 @@ export default {
     ],
   },
   Dan_Abramov: {
+    id: 'Dan_Abramov',
     img: '/speakers/Dan_Abramov.png',
+    imgSmall: '/speakers-small/Dan_Abramov.png',
     name: 'Dan Abramov',
     position: 'Co-author of Redux and Create React App, Working on React at Facebook',
     topic: 'Q&A Session',

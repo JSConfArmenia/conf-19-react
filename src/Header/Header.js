@@ -119,8 +119,16 @@ class Header extends Component {
             >
               About
             </Link>
-            {/* <Link to="Schedule" smooth="true" spy={true} className="Link" onClick={()
-             => this.close()}>Schedule</Link> */}
+            <Link
+              to="Schedule"
+              smooth="true"
+              spy={true}
+              offset={-100}
+              className="Link"
+              onClick={() => this.close('schedule')}
+            >
+              Schedule
+            </Link>
             <Link
               to="Speakers"
               smooth="true"
