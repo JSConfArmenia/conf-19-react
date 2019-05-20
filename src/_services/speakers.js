@@ -183,7 +183,7 @@ export default {
     imgSmall: '/speakers-small/Rebecca_Hill.png',
     name: 'Rebecca Hill',
     position: 'Senior Frontend Developer and Team Lead at WeTransfer',
-    topic: 'Structuring your app\'s business logic',
+    topic: 'Creating a Design System that People Actually Use',
     socialUrls: [
       'https://github.com/beerecca',
       'https://twitter.com/rebekaka',
