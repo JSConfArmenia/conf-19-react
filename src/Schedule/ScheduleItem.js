@@ -5,6 +5,21 @@ import PropTypes from 'prop-types';
 
 import './ScheduleItem.scss';
 
+const getTopicBackground = ({ isBreak = false, level }) => {
+  if (isBreak) {
+    return '/frames/for_breaks.png';
+  }
+
+  const frames = {
+    0: 'white_big.png',
+    1: 'orange_small.png',
+    2: 'blue_big.png',
+    3: 'pink_big.png',
+  };
+
+  return `/frames/${frames[level]}`;
+};
+
 
 /*
   const handleSpeakerClick = () => {
@@ -70,6 +85,7 @@ const ScheduleItem = ({
     }
     <div className={`ItemTitle -level-${level}`}>
       {topic || (speakers.length > 0 && speakers[0].topic)}
+      <img className="ItemTitleBackground" alt="Topic Background" src={getTopicBackground({ level, isBreak })} />
     </div>
   </div>
 );

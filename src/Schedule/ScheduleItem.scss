@@ -69,25 +69,27 @@
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
+    position: relative;
 
     &.-level-0 {
-      border-color: #c3c8e5;
-      background-image: url('/frames/white_big.png');
     }
 
     &.-level-1 {
-      border-color: #ff790b;
-      background-image: url('/frames/orange_small.png');
     }
 
     &.-level-2 {
-      // border-color: #00ded3;
-      background-image: url('/frames/blue_big.png');
     }
 
     &.-level-3 {
-      // border-color: #d91dbd;
-      background-image: url('/frames/pink_big.png');
+    }
+
+    .ItemTitleBackground {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
     }
 
     @include media-down(md) {
@@ -119,7 +121,7 @@
     .ItemTitle {
       font-size: 1.5rem;
       justify-content: center;
-      background-image: url('/frames/for_breaks.png');
+      // background-image: url('/frames/for_breaks.png');
     }
   }
 
