@@ -26,12 +26,12 @@ export default [
   },
   {
     title: 'Senior Front-End Developer',
-    company: 'AmeriaBank',
+    company: 'Ameriabank',
     url: 'https://www.ameriabank.am/career.aspx?cat=4&type=0&id=3621&lang=28',
   },
   {
     title: 'Junior Front-End Developer',
-    company: 'AmeriaBank',
+    company: 'Ameriabank',
     url: 'https://www.ameriabank.am/Career.aspx?cat=4&type=0&id=3620&lang=28',
   },
   {
