@@ -70,6 +70,11 @@ export default [
     url: 'https://career.betconstruct.me/software-engineer-reactjs-oriented',
   },
   {
+    title: 'Senior Fullstack JS Rockstar',
+    company: 'Simply Technologies',
+    url: 'https://www.itjobs.am/job/simply_technologies/senior_full_stack_javascript_rockstar/5cdd12a920483d0004315860',
+  },
+  {
     title: 'Full-Stack JS Developer',
     company: 'BetConstruct',
     url: 'https://career.betconstruct.me/full-stack-js-developer',
