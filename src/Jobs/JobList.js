@@ -84,4 +84,9 @@ export default [
     company: 'BetConstruct',
     url: 'https://career.betconstruct.me/software-eng-angular-js-oriented',
   },
+  {
+    title: 'Front-end Software Engineer',
+    company: 'Workfront Armenia',
+    url: 'https://www.workfront.com/job/1696220',
+  },
 ];
