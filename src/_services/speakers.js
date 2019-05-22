@@ -130,16 +130,15 @@ export default {
       'https://twitter.com/narendra_shetty',
     ],
   },
-  Miłosz_Piechocki: {
-    id: 'Miłosz_Piechocki',
-    img: '/speakers/Miłosz_Piechocki.jpg',
-    imgSmall: '/speakers-small/Miłosz_Piechocki.png',
-    name: 'Miłosz Piechocki',
-    position: 'Senior Front-end Developer at SumoLogic',
-    topic: 'Make your React code bulletproof with some TypeScript wizardry',
+  Nver_Abgaryan: {
+    id: 'Nver_Abgaryan',
+    img: '/speakers/Nver_Abgaryan.jpg',
+    imgSmall: '/speakers/Nver_Abgaryan.jpg',
+    name: 'Nver Abgaryan',
+    position: 'JavaScript Developer at Hex Division',
+    topic: 'The battle of state management: Mobx versus Redux',
     socialUrls: [
-      'https://github.com/miloszpp',
-      'https://twitter.com/miloszpp',
+      'https://github.com/NverAbgaryan',
     ],
   },
   Cristian_Oliveira_da_Rosa: {

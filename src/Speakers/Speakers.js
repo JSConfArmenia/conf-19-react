@@ -27,7 +27,7 @@ const speakersList = [
   'Gagik_Arustamyan',
   'Taguhi_Asatryan',
   'Radoslaw_Malecki',
-  'Miłosz_Piechocki',
+  'Nver_Abgaryan',
 ].map(id => ({
   id,
   ...speakersSerivce[id],

@@ -96,10 +96,10 @@ const schedule = [
       language: 'EN',
     },
     {
-      speakers: [speakers.Miłosz_Piechocki],
+      speakers: [speakers.Nver_Abgaryan],
       duration: 45,
       level: 3,
-      language: 'EN',
+      language: 'AM',
     },
     {
       topic: 'Break for 15 min',
