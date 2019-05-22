@@ -59,6 +59,7 @@ const ScheduleItemSpeakers = ({ speakers = [] }) => (
 // eslint-disable-next-line
 const ScheduleItem = ({
   topic = '',
+  language = '',
   speakers = [],
   duration,
   timeScaling,
@@ -83,8 +84,9 @@ const ScheduleItem = ({
     {speakers.length > 0
       && <ScheduleItemSpeakers speakers={speakers} />
     }
-    <div className={`ItemTitle -level-${level}`}>
-      {topic || (speakers.length > 0 && speakers[0].topic)}
+    <div className={`ItemTitle -level-${level} -orient-${orient}`}>
+      {(isBreak || isGeneral) ? null : <span className="ItemLanguage">{language}</span>}
+      <span className="ItemTopic">{topic || (speakers.length > 0 && speakers[0].topic)}</span>
       <img className="ItemTitleBackground" alt="Topic Background" src={getTopicBackground({ level, isBreak })} />
     </div>
   </div>
