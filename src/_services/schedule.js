@@ -204,7 +204,7 @@ const schedule = [
       speakers: [speakers.Taguhi_Asatryan],
       duration: 30,
       level: 3,
-      language: 'AM',
+      language: 'EN',
     },
     {
       topic: 'Break for 15 min',
@@ -227,7 +227,7 @@ const schedule = [
       speakers: [speakers.Gagik_Arustamyan],
       duration: 30,
       level: 0,
-      language: 'AM',
+      language: 'EN',
     },
     {
       speakers: [speakers.Radoslaw_Malecki],
