@@ -5,7 +5,7 @@ export default {
     imgSmall: '/speakers-small/Jesse_Martin.png',
     name: 'Jesse Martin',
     position: 'Full-stack Developer at GraphCMS',
-    topic: 'Product Ready React with GatsbyJS',
+    topic: 'Production Ready React with GatsbyJS',
     socialUrls: [
       'https://github.com/motleydev',
       'https://twitter.com/motleydev',

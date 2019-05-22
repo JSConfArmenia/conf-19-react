@@ -204,7 +204,7 @@ const schedule = [
       speakers: [speakers.Taguhi_Asatryan],
       duration: 30,
       level: 3,
-      language: 'EN',
+      language: 'AM',
     },
     {
       topic: 'Break for 15 min',
