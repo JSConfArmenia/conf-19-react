@@ -43,4 +43,8 @@
     "gh-pages": "^2.0.1",
     "pre-commit": "^1.2.2"
   }
+  "engines": {
+    "node": "10.x",
+    "npm": "6.x"
+  }
 }
