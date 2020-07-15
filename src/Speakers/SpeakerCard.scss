@@ -1,15 +1,39 @@
+@import '../_common/utils';
+
 .SpeakerCard {
   display: flex;
   flex-direction: row;
   margin-bottom: 90px;
 
+  @include media-down(xs) {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .SpeakerImgContainer {
     flex: 0;
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .SpeakerImageOverlay {
+    background: #020937;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: .3s ease;
   }
 
   .SpeakerInfoContainer {
     flex: 1;
-    padding: 10px 30px;
+    padding: 0 30px;
   }
 
   .SpeakerImg {
@@ -21,18 +45,38 @@
   }
 
   .SpeakerName {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: 1.2em;
   }
 
   .SpeakerPosition {
     font-size: 0.7em;
     letter-spacing: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .SpeakerTopic {
-    font-size: 1.1em;
-    line-height: 1.6em;
-    color: rgb(0, 222, 211);
+    font-size: 0.875em;
+    line-height: 1.4em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: .4em .6em;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+
+
+  &:hover .SpeakerImageOverlay {
+    opacity: 0;
+  }
+
+  .SpeakerSocialLinks {
+    display: flex;
+    flex-direction: row;
+
+    @include media-down(xs) {
+      justify-content: center;
+    }
   }
 }

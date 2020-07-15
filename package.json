@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@rehooks/window-scroll-position": "github:rehooks/window-scroll-position",
     "bootstrap": "^4.2.1",
     "google-map-react": "^1.1.2",
     "node-sass": "^4.11.0",
@@ -21,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint src",
-    "lint_fix": "eslint src --fix",
+    "lint:fix": "eslint src --fix",
     "deploy": "npm run build && echo reactconf.am > ./build/CNAME  && gh-pages -d build --repo git@github.com:JSConfArmenia/conf-19-react.git --branch gh-pages",
     "postinstall": "npm run build"
   },
@@ -43,5 +42,9 @@
     "eslint-watch": "^4.0.2",
     "gh-pages": "^2.0.1",
     "pre-commit": "^1.2.2"
+  }
+  "engines" : {
+    "node": "10.x",
+    "npm": "6.x"
   }
 }

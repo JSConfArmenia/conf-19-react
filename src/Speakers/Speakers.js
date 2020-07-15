@@ -4,18 +4,19 @@ import './Speakers.scss';
 import speakersSerivce from '../_services/speakers';
 
 import Title, { TitleAccent } from '../_components/Title';
-import Description from '../_components/Description';
-import Button from '../_components/Button';
+// import Description from '../_components/Description';
+// import Button from '../_components/Button';
 import SpeakerCard from './SpeakerCard';
 
 
 const speakersList = [
-  'Roy_Derks',
   'Sara_Vieira',
-  'Narendra_Shetty',
+  'Roy_Derks',
+  'Dan_Abramov',
   'Denys_Radin',
-  'Cristian_Oliveira_da_Rosa',
+  'Narendra_Shetty',
   'Rebecca_Hill',
+  'Cristian_Oliveira_da_Rosa',
   'Elizabet_Oliveira',
   'Jesse_Martin',
   'Khachatur_Virabyan',
@@ -26,14 +27,14 @@ const speakersList = [
   'Gagik_Arustamyan',
   'Taguhi_Asatryan',
   'Radoslaw_Malecki',
-  'Miłosz_Piechocki',
+  'Nver_Abgaryan',
 ].map(id => ({
   id,
   ...speakersSerivce[id],
 }));
 
 const Speakers = () => (
-  <section className="Speakers" id="Speakers">
+  <section id="speakers" className="Speakers">
     <div className="container">
       <div className="SpeakersTitleContainer">
         <Title>
@@ -51,7 +52,7 @@ const Speakers = () => (
           </div>
         ))}
       </div>
-      <div className="row SpeakersApplicationContainer">
+      {/* <div className="row SpeakersApplicationContainer">
         <div className="col-lg-6 order-lg-2">
           <div className="SectionBox">
             <Title>
@@ -76,7 +77,7 @@ const Speakers = () => (
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   </section>
 );

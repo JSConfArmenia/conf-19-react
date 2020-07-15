@@ -5,7 +5,7 @@ import Member from './Member';
 import './Team.scss';
 
 export default () => (
-  <section className="Team">
+  <section id="team" className="Team">
     <Title>
       Core
       <TitleAccent color="primary2"> Team</TitleAccent>
